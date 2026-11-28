@@ -1,0 +1,11 @@
+{
+  "freeze_utc": "2026-11-25T02:41:51Z",
+  "scope": "Four purposively selected mature Apache projects and release versions not used in development. Capture all results of the frozen project-dev-list version+VOTE query and the frozen portable tag namespace. Include every identified opening for the target software/version even if the parser emits nothing. Do not replace projects after observing coverage. This is internal prospective ordering, not public registration.",
+  "families": [["hbase", "2.5.8", "rel/2.5.8"], ["ratis", "3.1.0", "ratis-3.1.0"], ["kudu", "1.17.0", "1.17.0"], ["pinot", "1.2.0", "release-1.2.0"]],
+  "extractor_sha256": "efda2c64df60129eedbc35cb97c931cb4bb5f2236ebef1cca3636a06d9179344",
+  "bridge_sha256": "08717e340875b76b9ae9ebb0834d5b3ce4ea7e6d7bc19a830b0b869322b4d259",
+  "collection_driver_sha256": "18cedc6697e50676646d57b90de99ea83041936fd833b3a83825d5ff17e4644a",
+  "assistance": "After running the unchanged extractor, inspect full mail to enumerate openings, conclusions and explicitly designated tags. At most one operation per unresolved opening: supply a captured conclusion URL and its explicit disposition to an already correctly object-bound motion. Opening repairs and guesses about repository convention are excluded. Preserve unresolved and absent closing evidence; conservative false reuse comparison only for decidable source-inspected cases. A negative requires an explicit withdrawal/failure message; silence stays unknown. No participant or time estimate.",
+  "final_tag": "Use the prespecified final tag for automatic evaluation. If absent, retain the missing pin; any conventional equivalent found in the raw namespace is descriptive only.",
+  "outcome_counts": "Report family, indexed-message and manually inspected opening denominators separately. Report automatic versus assisted determinate handoffs and residual gaps including no record. Confirmed negative closes the request without a source match. Formal outcome-equivalence remains contingent on named tag stability unless the opening independently states the OID."
+}

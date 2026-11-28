@@ -1,0 +1,264 @@
+{
+  "motions": {
+    "arrow-rs": {
+      "name": "Apache Arrow Rust 60.0.0 RC1",
+      "repository": "apache/arrow-rs",
+      "refs": {
+        "59.0.0": {
+          "commit": "e5e66fa05ce986fa6a3f61c36c11ff6b476cb76c",
+          "source": "https://github.com/apache/arrow-rs/commit/e5e66fa05ce986fa6a3f61c36c11ff6b476cb76c"
+        },
+        "60.0.0-rc1": {
+          "commit": "ef1fa157977633f0ba21aa921f9ef3d5c669235b",
+          "source": "https://github.com/apache/arrow-rs/commit/ef1fa157977633f0ba21aa921f9ef3d5c669235b"
+        },
+        "60.0.0": {
+          "commit": "ef1fa157977633f0ba21aa921f9ef3d5c669235b",
+          "source": "https://github.com/apache/arrow-rs/commit/ef1fa157977633f0ba21aa921f9ef3d5c669235b"
+        },
+        "refs/heads/main": {
+          "commit": "9951b625879a19844ecd0b2dd352347a87ea26dd",
+          "source": "https://github.com/apache/arrow-rs/compare/ef1fa157977633f0ba21aa921f9ef3d5c669235b...9951b625879a19844ecd0b2dd352347a87ea26dd"
+        }
+      }
+    },
+    "parquet-java": {
+      "name": "Apache Parquet Java 1.17.1 RC0",
+      "repository": "apache/parquet-java",
+      "refs": {
+        "apache-parquet-1.17.0": {
+          "commit": "fac0c746532e133beb928a7f6a7e57b510b477a1",
+          "source": "https://github.com/apache/parquet-java/commit/fac0c746532e133beb928a7f6a7e57b510b477a1"
+        },
+        "apache-parquet-1.17.1-rc0": {
+          "commit": "78a8d3230eb4769db93de5f2f2e18363c04cae81",
+          "source": "https://github.com/apache/parquet-java/commit/78a8d3230eb4769db93de5f2f2e18363c04cae81"
+        },
+        "apache-parquet-1.17.1": {
+          "commit": "78a8d3230eb4769db93de5f2f2e18363c04cae81",
+          "source": "https://github.com/apache/parquet-java/commit/78a8d3230eb4769db93de5f2f2e18363c04cae81"
+        },
+        "refs/heads/master": {
+          "commit": "fc585a7c22295449b7598920b61c797f5b800e76",
+          "source": "https://github.com/apache/parquet-java/compare/78a8d3230eb4769db93de5f2f2e18363c04cae81...fc585a7c22295449b7598920b61c797f5b800e76"
+        }
+      }
+    },
+    "iceberg": {
+      "name": "Apache Iceberg 1.12.0 RC2",
+      "repository": "apache/iceberg",
+      "refs": {
+        "apache-iceberg-1.12.0-rc1": {
+          "commit": "e8d0f0f3004a608e45986cbc2f8e5baf1a8a7db9",
+          "source": "https://github.com/apache/iceberg/commit/e8d0f0f3004a608e45986cbc2f8e5baf1a8a7db9"
+        },
+        "apache-iceberg-1.12.0-rc2": {
+          "commit": "212aa894e919ff9fdf89160da4aadcbe6858ac01",
+          "source": "https://github.com/apache/iceberg/commit/212aa894e919ff9fdf89160da4aadcbe6858ac01"
+        },
+        "apache-iceberg-1.12.0": {
+          "commit": "212aa894e919ff9fdf89160da4aadcbe6858ac01",
+          "source": "https://github.com/apache/iceberg/commit/212aa894e919ff9fdf89160da4aadcbe6858ac01"
+        },
+        "refs/heads/main": {
+          "commit": "2bd60a093a889a44a9e67033dba3abf4c36895f5",
+          "source": "https://github.com/apache/iceberg/compare/212aa894e919ff9fdf89160da4aadcbe6858ac01...2bd60a093a889a44a9e67033dba3abf4c36895f5"
+        }
+      }
+    },
+    "datafusion": {
+      "name": "Apache DataFusion 55.1.0 RC1",
+      "repository": "apache/datafusion",
+      "refs": {
+        "55.0.0": {
+          "commit": "d5552342012888b7d1a3ab88d92e3d292fc0cde0",
+          "source": "https://github.com/apache/datafusion/commit/d5552342012888b7d1a3ab88d92e3d292fc0cde0"
+        },
+        "55.1.0-rc1": {
+          "commit": "7d3835c71f30cbd3c3ae4041732267f1f453097a",
+          "source": "https://github.com/apache/datafusion/commit/7d3835c71f30cbd3c3ae4041732267f1f453097a"
+        },
+        "55.1.0": {
+          "commit": "7d3835c71f30cbd3c3ae4041732267f1f453097a",
+          "source": "https://github.com/apache/datafusion/commit/7d3835c71f30cbd3c3ae4041732267f1f453097a"
+        },
+        "refs/heads/main": {
+          "commit": "318ec1e370c59255587e995dbea735a9d1db428b",
+          "source": "https://github.com/apache/datafusion/compare/7d3835c71f30cbd3c3ae4041732267f1f453097a...318ec1e370c59255587e995dbea735a9d1db428b"
+        }
+      }
+    },
+    "datafusion-comet": {
+      "name": "Apache DataFusion Comet 1.2.0 RC1",
+      "repository": "apache/datafusion-comet",
+      "refs": {
+        "1.1.0": {
+          "commit": "992c806a7e38c2e88bd018aa5774164b0850e1fa",
+          "source": "https://github.com/apache/datafusion-comet/commit/992c806a7e38c2e88bd018aa5774164b0850e1fa"
+        },
+        "1.2.0-rc1": {
+          "commit": "ab46419fcc99bcd34aa4d89f7b545d5d51694a88",
+          "source": "https://github.com/apache/datafusion-comet/commit/ab46419fcc99bcd34aa4d89f7b545d5d51694a88"
+        },
+        "1.2.0": {
+          "commit": "ab46419fcc99bcd34aa4d89f7b545d5d51694a88",
+          "source": "https://github.com/apache/datafusion-comet/commit/ab46419fcc99bcd34aa4d89f7b545d5d51694a88"
+        },
+        "refs/heads/main": {
+          "commit": "d187e6823f9052e7331e8a810b08a1202debb91c",
+          "source": "https://github.com/apache/datafusion-comet/compare/ab46419fcc99bcd34aa4d89f7b545d5d51694a88...d187e6823f9052e7331e8a810b08a1202debb91c"
+        }
+      }
+    },
+    "datafusion-sqlparser-rs": {
+      "name": "Apache DataFusion sqlparser-rs 0.64.0 RC1",
+      "repository": "apache/datafusion-sqlparser-rs",
+      "refs": {
+        "v0.63.0": {
+          "commit": "85b1a6f2223bf95d98cf1bc504971abd191dc869",
+          "source": "https://github.com/apache/datafusion-sqlparser-rs/commit/85b1a6f2223bf95d98cf1bc504971abd191dc869"
+        },
+        "v0.64.0-rc1": {
+          "commit": "23f188212cf837e380d7b765e80435fe0e79f181",
+          "source": "https://github.com/apache/datafusion-sqlparser-rs/commit/23f188212cf837e380d7b765e80435fe0e79f181"
+        },
+        "v0.64.0": {
+          "commit": "23f188212cf837e380d7b765e80435fe0e79f181",
+          "source": "https://github.com/apache/datafusion-sqlparser-rs/commit/23f188212cf837e380d7b765e80435fe0e79f181"
+        },
+        "refs/heads/main": {
+          "commit": "2ff068b30954e1d67889550fae8539640422c61a",
+          "source": "https://github.com/apache/datafusion-sqlparser-rs/compare/23f188212cf837e380d7b765e80435fe0e79f181...2ff068b30954e1d67889550fae8539640422c61a"
+        }
+      }
+    },
+    "kafka": {
+      "name": "Apache Kafka 3.9.0 RC5",
+      "repository": "apache/kafka",
+      "refs": {
+        "3.8.0": {
+          "commit": "771b9576b00ecf5b64ab6e8bedf04156fbdb5cd6",
+          "source": "https://api.github.com/repos/apache/kafka/commits/3.8.0",
+          "observed_at": "2026-11-19T14:41:16.731660+00:00"
+        },
+        "3.9.0-rc5": {
+          "commit": "84caaa6e9da06435411510a81fa321d4f99c351f",
+          "source": "https://api.github.com/repos/apache/kafka/commits/3.9.0-rc5",
+          "observed_at": "2026-11-19T14:41:16.731660+00:00"
+        },
+        "3.9.0": {
+          "commit": "84caaa6e9da06435411510a81fa321d4f99c351f",
+          "source": "https://api.github.com/repos/apache/kafka/commits/3.9.0",
+          "observed_at": "2026-11-19T14:41:16.731660+00:00"
+        },
+        "3.9.1": {
+          "commit": "f745dfdcee2b9851204ddbbcd423626ab87294bc",
+          "source": "https://api.github.com/repos/apache/kafka/commits/3.9.1",
+          "observed_at": "2026-11-19T14:41:16.731660+00:00"
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "motion": "arrow-rs",
+      "role": "opening",
+      "url": "https://www.mail-archive.com/dev@arrow.apache.org/msg35112.html",
+      "candidate_commit": "ef1fa157977633f0ba21aa921f9ef3d5c669235b",
+      "candidate_basis": "full commit printed in the opening notice"
+    },
+    {
+      "motion": "arrow-rs",
+      "role": "result",
+      "url": "https://www.mail-archive.com/dev@arrow.apache.org/msg35126.html",
+      "outcome": "passed",
+      "supporting_urls": []
+    },
+    {
+      "motion": "parquet-java",
+      "role": "opening",
+      "url": "https://www.mail-archive.com/dev@parquet.apache.org/msg27296.html",
+      "candidate_commit": "78a8d3230eb4769db93de5f2f2e18363c04cae81",
+      "candidate_basis": "full commit printed in the opening notice"
+    },
+    {
+      "motion": "parquet-java",
+      "role": "result",
+      "url": "https://www.mail-archive.com/dev@parquet.apache.org/msg27313.html",
+      "outcome": "passed",
+      "supporting_urls": []
+    },
+    {
+      "motion": "iceberg",
+      "role": "opening",
+      "url": "https://www.mail-archive.com/dev@iceberg.apache.org/msg15283.html",
+      "candidate_commit": "212aa894e919ff9fdf89160da4aadcbe6858ac01",
+      "candidate_basis": "full commit printed in the opening notice"
+    },
+    {
+      "motion": "iceberg",
+      "role": "result",
+      "url": "https://www.mail-archive.com/dev@iceberg.apache.org/msg15343.html",
+      "outcome": "passed",
+      "supporting_urls": []
+    },
+    {
+      "motion": "datafusion",
+      "role": "opening",
+      "url": "https://www.mail-archive.com/dev@datafusion.apache.org/msg01429.html",
+      "candidate_commit": "7d3835c71f30cbd3c3ae4041732267f1f453097a",
+      "candidate_basis": "full commit printed in the opening notice"
+    },
+    {
+      "motion": "datafusion",
+      "role": "result",
+      "url": "https://www.mail-archive.com/dev@datafusion.apache.org/msg01499.html",
+      "outcome": "passed",
+      "supporting_urls": []
+    },
+    {
+      "motion": "datafusion-comet",
+      "role": "opening",
+      "url": "https://www.mail-archive.com/dev@datafusion.apache.org/msg01655.html",
+      "candidate_commit": "ab46419fcc99bcd34aa4d89f7b545d5d51694a88",
+      "candidate_basis": "full commit printed in the opening notice"
+    },
+    {
+      "motion": "datafusion-comet",
+      "role": "result",
+      "url": "https://www.mail-archive.com/dev@datafusion.apache.org/msg01668.html",
+      "outcome": "passed",
+      "supporting_urls": []
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "role": "opening",
+      "url": "https://www.mail-archive.com/dev@datafusion.apache.org/msg01681.html",
+      "candidate_commit": "23f188212cf837e380d7b765e80435fe0e79f181",
+      "candidate_basis": "full commit printed in the opening notice"
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "role": "result",
+      "url": "https://www.mail-archive.com/dev@datafusion.apache.org/msg01684.html",
+      "outcome": "passed",
+      "supporting_urls": []
+    },
+    {
+      "motion": "kafka",
+      "role": "opening",
+      "url": "https://www.mail-archive.com/dev@kafka.apache.org/msg144524.html",
+      "candidate_commit": "84caaa6e9da06435411510a81fa321d4f99c351f",
+      "candidate_basis": "ballot names 3.9.0-rc5, resolved in the archived git and API snapshots"
+    },
+    {
+      "motion": "kafka",
+      "role": "result",
+      "url": "https://www.mail-archive.com/dev@kafka.apache.org/msg144709.html",
+      "outcome": "passed",
+      "supporting_urls": [
+        "https://www.mail-archive.com/dev@kafka.apache.org/msg144710.html"
+      ]
+    }
+  ]
+}

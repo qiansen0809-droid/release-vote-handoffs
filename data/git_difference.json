@@ -1,0 +1,517 @@
+[
+  {
+    "opening": "https://www.mail-archive.com/dev@hudi.apache.org/msg05418.html",
+    "compare": "https://github.com/apache/hudi/compare/d0df1d4a94d13cfc061faaf1a9573c886811c104...38832854be37cb78ad1edd87f515f01ca5ea6a8a",
+    "api": "https://api.github.com/repos/apache/hudi/compare/d0df1d4a94d13cfc061faaf1a9573c886811c104...38832854be37cb78ad1edd87f515f01ca5ea6a8a",
+    "status": "ahead",
+    "ahead_by": 1,
+    "behind_by": 0,
+    "commits": [
+      {
+        "oid": "38832854be37cb78ad1edd87f515f01ca5ea6a8a",
+        "title": "[MINOR] Update release version to reflect published version 0.15.0",
+        "url": "https://github.com/apache/hudi/commit/38832854be37cb78ad1edd87f515f01ca5ea6a8a"
+      }
+    ],
+    "files": [
+      {
+        "path": "docker/hoodie/hadoop/base/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/base_java11/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/datanode/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/historyserver/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/hive_base/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/namenode/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/prestobase/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/spark_base/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/sparkadhoc/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/sparkmaster/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/sparkworker/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/trinobase/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/trinocoordinator/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "docker/hoodie/hadoop/trinoworker/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-aws/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-cli/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-client/hudi-client-common/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-client/hudi-flink-client/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-client/hudi-java-client/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-client/hudi-spark-client/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-client/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-examples/hudi-examples-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-examples/hudi-examples-flink/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-examples/hudi-examples-java/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-examples/hudi-examples-spark/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-examples/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-flink-datasource/hudi-flink/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-flink-datasource/hudi-flink1.14.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-flink-datasource/hudi-flink1.15.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-flink-datasource/hudi-flink1.16.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-flink-datasource/hudi-flink1.17.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-flink-datasource/hudi-flink1.18.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-flink-datasource/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-gcp/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-hadoop-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-hadoop-mr/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-integ-test/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-io/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-kafka-connect/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-platform-service/hudi-metaserver/hudi-metaserver-client/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-platform-service/hudi-metaserver/hudi-metaserver-server/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-platform-service/hudi-metaserver/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-platform-service/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark-common/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark2-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark2/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3.0.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3.1.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3.2.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3.2plus-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3.3.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3.4.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/hudi-spark3.5.x/pom.xml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2
+      },
+      {
+        "path": "hudi-spark-datasource/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-sync/hudi-adb-sync/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-sync/hudi-datahub-sync/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-sync/hudi-hive-sync/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-sync/hudi-sync-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-sync/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-tests-common/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-timeline-service/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "hudi-utilities/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-aws-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-cli-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-datahub-sync-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-flink-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-gcp-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-hadoop-mr-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-hive-sync-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-integ-test-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-kafka-connect-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-metaserver-server-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-presto-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-spark-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-timeline-server-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-trino-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-utilities-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "packaging/hudi-utilities-slim-bundle/pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "pom.xml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1
+      }
+    ]
+  }
+]

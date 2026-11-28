@@ -1,0 +1,123 @@
+{
+  "months": [
+    {
+      "month": "2024-12",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2024-12",
+      "mbox_sha256": "5940e26cf8d2f92a913f745ef0650d54b048f5d8318f4f06f33eff7481a2edb8",
+      "bytes": 1612461,
+      "messages": 184,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2024-12",
+      "matched_permalinks": 184
+    },
+    {
+      "month": "2025-01",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-01",
+      "mbox_sha256": "3d811a77c73b552b4ea105c57c2dda804370f9522477b36ebc24207990058223",
+      "bytes": 997140,
+      "messages": 132,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-01",
+      "matched_permalinks": 132
+    },
+    {
+      "month": "2025-02",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-02",
+      "mbox_sha256": "0ced43ff3685bff72f3f682e9def11591b80e6d6342ab87f5fef76b58bf91d37",
+      "bytes": 1102821,
+      "messages": 140,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-02",
+      "matched_permalinks": 140
+    },
+    {
+      "month": "2025-03",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-03",
+      "mbox_sha256": "d654646606043e27ea0a8e192eaa87eacf46265380925d52c829130795196f7e",
+      "bytes": 1871010,
+      "messages": 225,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-03",
+      "matched_permalinks": 225
+    },
+    {
+      "month": "2025-04",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-04",
+      "mbox_sha256": "56a9acf8cc571e26a727b5e5cefe90ad696f20bd5f08d5fc2425ebc8e1f7d206",
+      "bytes": 1529123,
+      "messages": 211,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-04",
+      "matched_permalinks": 211
+    },
+    {
+      "month": "2025-05",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-05",
+      "mbox_sha256": "ee8fb349b4c0765f7464e4cc7c6368975b9013de7aea08ecc52e03c0187c3ad4",
+      "bytes": 2025277,
+      "messages": 273,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-05",
+      "matched_permalinks": 273
+    },
+    {
+      "month": "2025-06",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-06",
+      "mbox_sha256": "96eff095d93fd9ac00a1f054f8330299cb5c72520feaafd431dba65766ffbc91",
+      "bytes": 909417,
+      "messages": 136,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-06",
+      "matched_permalinks": 136
+    },
+    {
+      "month": "2025-07",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-07",
+      "mbox_sha256": "feb4bf46b8e6e433cebd14afad4230b1d0c8acfc3ac296adcaaf3d549834b861",
+      "bytes": 1439160,
+      "messages": 208,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-07",
+      "matched_permalinks": 208
+    },
+    {
+      "month": "2025-08",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-08",
+      "mbox_sha256": "2740bf44c30fd0a4e3afc31159d7f9c42d9b558bb17aca1904b224fbdea52cb2",
+      "bytes": 2104853,
+      "messages": 171,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-08",
+      "matched_permalinks": 171
+    },
+    {
+      "month": "2025-09",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-09",
+      "mbox_sha256": "e1e94cc11106c9bd661fade06a9ee6e92d504a02896a0bbd41e834c65e7d5afb",
+      "bytes": 1316075,
+      "messages": 166,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-09",
+      "matched_permalinks": 166
+    },
+    {
+      "month": "2025-10",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-10",
+      "mbox_sha256": "85c71d8070a7b2ed8c527285bcd73a5c685d75ea4bb45cf4abdf8d23e7fb1f0e",
+      "bytes": 1212555,
+      "messages": 163,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-10",
+      "matched_permalinks": 163
+    },
+    {
+      "month": "2025-11",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-11",
+      "mbox_sha256": "9965cb4be4f76954c6e27d41e72a58ed625aa57643cbbb8aa5bd902e76a757a8",
+      "bytes": 1281807,
+      "messages": 154,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-11",
+      "matched_permalinks": 154
+    },
+    {
+      "month": "2025-12",
+      "url": "https://lists.apache.org/api/mbox.lua?list=general@incubator.apache.org&date=2025-12",
+      "mbox_sha256": "eeb4629c7025dfff1e776ed0b01ca8741da956ce15c3f0f6ac52c2037b0e2159",
+      "bytes": 1503963,
+      "messages": 149,
+      "stats_url": "https://lists.apache.org/api/stats.lua?list=general&domain=incubator.apache.org&d=2025-12",
+      "matched_permalinks": 149
+    }
+  ],
+  "unique_messages": 2294,
+  "stored_vote_messages": 1279
+}

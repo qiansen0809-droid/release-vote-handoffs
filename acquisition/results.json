@@ -1,0 +1,7016 @@
+{
+  "complete_and_partial_world_check": {
+    "complete_worlds": 315,
+    "distinct_partial_views": 768,
+    "exact_action_sets": 768
+  },
+  "totals": {
+    "eager": {
+      "rows": 71,
+      "agree_with_sql": 71,
+      "reads": 355
+    },
+    "opening-first": {
+      "rows": 71,
+      "agree_with_sql": 71,
+      "reads": 276
+    },
+    "result-first": {
+      "rows": 71,
+      "agree_with_sql": 71,
+      "reads": 244
+    },
+    "fixed": {
+      "rows": 71,
+      "agree_with_sql": 71,
+      "reads": 238
+    },
+    "conditional": {
+      "rows": 71,
+      "agree_with_sql": 71,
+      "reads": 230
+    },
+    "policy": {
+      "rows": 71,
+      "agree_with_sql": 71,
+      "reads": 230
+    }
+  },
+  "by_group": {
+    "complete": {
+      "eager": {
+        "rows": 21,
+        "agree_with_sql": 21,
+        "reads": 105
+      },
+      "opening-first": {
+        "rows": 21,
+        "agree_with_sql": 21,
+        "reads": 105
+      },
+      "result-first": {
+        "rows": 21,
+        "agree_with_sql": 21,
+        "reads": 105
+      },
+      "fixed": {
+        "rows": 21,
+        "agree_with_sql": 21,
+        "reads": 105
+      },
+      "conditional": {
+        "rows": 21,
+        "agree_with_sql": 21,
+        "reads": 105
+      },
+      "policy": {
+        "rows": 21,
+        "agree_with_sql": 21,
+        "reads": 105
+      }
+    },
+    "single_fault": {
+      "eager": {
+        "rows": 42,
+        "agree_with_sql": 42,
+        "reads": 210
+      },
+      "opening-first": {
+        "rows": 42,
+        "agree_with_sql": 42,
+        "reads": 147
+      },
+      "result-first": {
+        "rows": 42,
+        "agree_with_sql": 42,
+        "reads": 119
+      },
+      "fixed": {
+        "rows": 42,
+        "agree_with_sql": 42,
+        "reads": 105
+      },
+      "conditional": {
+        "rows": 42,
+        "agree_with_sql": 42,
+        "reads": 105
+      },
+      "policy": {
+        "rows": 42,
+        "agree_with_sql": 42,
+        "reads": 105
+      }
+    },
+    "documented_negative": {
+      "eager": {
+        "rows": 2,
+        "agree_with_sql": 2,
+        "reads": 10
+      },
+      "opening-first": {
+        "rows": 2,
+        "agree_with_sql": 2,
+        "reads": 6
+      },
+      "result-first": {
+        "rows": 2,
+        "agree_with_sql": 2,
+        "reads": 6
+      },
+      "fixed": {
+        "rows": 2,
+        "agree_with_sql": 2,
+        "reads": 10
+      },
+      "conditional": {
+        "rows": 2,
+        "agree_with_sql": 2,
+        "reads": 6
+      },
+      "policy": {
+        "rows": 2,
+        "agree_with_sql": 2,
+        "reads": 6
+      }
+    },
+    "negative_control": {
+      "eager": {
+        "rows": 6,
+        "agree_with_sql": 6,
+        "reads": 30
+      },
+      "opening-first": {
+        "rows": 6,
+        "agree_with_sql": 6,
+        "reads": 18
+      },
+      "result-first": {
+        "rows": 6,
+        "agree_with_sql": 6,
+        "reads": 14
+      },
+      "fixed": {
+        "rows": 6,
+        "agree_with_sql": 6,
+        "reads": 18
+      },
+      "conditional": {
+        "rows": 6,
+        "agree_with_sql": 6,
+        "reads": 14
+      },
+      "policy": {
+        "rows": 6,
+        "agree_with_sql": 6,
+        "reads": 14
+      }
+    }
+  },
+  "certified_by_budget": {
+    "eager": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 71
+    },
+    "opening-first": {
+      "1": 0,
+      "2": 0,
+      "3": 36,
+      "4": 43,
+      "5": 71
+    },
+    "result-first": {
+      "1": 0,
+      "2": 32,
+      "3": 36,
+      "4": 43,
+      "5": 71
+    },
+    "fixed": {
+      "1": 0,
+      "2": 32,
+      "3": 39,
+      "4": 46,
+      "5": 71
+    },
+    "conditional": {
+      "1": 0,
+      "2": 32,
+      "3": 43,
+      "4": 50,
+      "5": 71
+    },
+    "policy": {
+      "1": 0,
+      "2": 32,
+      "3": 43,
+      "4": 50,
+      "5": 71
+    }
+  },
+  "held_out_fixed_orders": {
+    "arrow-rs": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "datafusion": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "datafusion-comet": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "datafusion-sqlparser-rs": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "iceberg": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "kafka": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "otava-ipmc-rc3": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "parquet-java": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ],
+    "polaris-ipmc-rc5": [
+      "result",
+      "older",
+      "newer",
+      "opening"
+    ]
+  },
+  "rows": [
+    {
+      "motion": "arrow-rs",
+      "group": "complete",
+      "name": "59.0.0 -> 60.0.0-rc1",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "complete",
+      "name": "60.0.0-rc1 -> 60.0.0",
+      "sqlite": "Reuse",
+      "eager": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "single_fault",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "single_fault",
+      "name": "foreign_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "single_fault",
+      "name": "edited_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "single_fault",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "single_fault",
+      "name": "missing_older_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "single_fault",
+      "name": "changed_newer_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      }
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "complete",
+      "name": "60.0.0 -> refs/heads/main",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "complete",
+      "name": "55.0.0 -> 55.1.0-rc1",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "complete",
+      "name": "55.1.0-rc1 -> 55.1.0",
+      "sqlite": "Reuse",
+      "eager": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "single_fault",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "single_fault",
+      "name": "foreign_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "single_fault",
+      "name": "edited_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "single_fault",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "single_fault",
+      "name": "missing_older_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "single_fault",
+      "name": "changed_newer_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion",
+      "group": "complete",
+      "name": "55.1.0 -> refs/heads/main",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "complete",
+      "name": "1.1.0 -> 1.2.0-rc1",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "complete",
+      "name": "1.2.0-rc1 -> 1.2.0",
+      "sqlite": "Reuse",
+      "eager": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "single_fault",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "single_fault",
+      "name": "foreign_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "single_fault",
+      "name": "edited_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "single_fault",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "single_fault",
+      "name": "missing_older_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "single_fault",
+      "name": "changed_newer_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "complete",
+      "name": "1.2.0 -> refs/heads/main",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "complete",
+      "name": "v0.63.0 -> v0.64.0-rc1",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "complete",
+      "name": "v0.64.0-rc1 -> v0.64.0",
+      "sqlite": "Reuse",
+      "eager": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "single_fault",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "single_fault",
+      "name": "foreign_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "single_fault",
+      "name": "edited_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "single_fault",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "single_fault",
+      "name": "missing_older_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "single_fault",
+      "name": "changed_newer_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      }
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "complete",
+      "name": "v0.64.0 -> refs/heads/main",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "complete",
+      "name": "apache-iceberg-1.12.0-rc1 -> apache-iceberg-1.12.0-rc2",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "complete",
+      "name": "apache-iceberg-1.12.0-rc2 -> apache-iceberg-1.12.0",
+      "sqlite": "Reuse",
+      "eager": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "single_fault",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "single_fault",
+      "name": "foreign_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "single_fault",
+      "name": "edited_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "single_fault",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "single_fault",
+      "name": "missing_older_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "single_fault",
+      "name": "changed_newer_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      }
+    },
+    {
+      "motion": "iceberg",
+      "group": "complete",
+      "name": "apache-iceberg-1.12.0 -> refs/heads/main",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "complete",
+      "name": "3.8.0 -> 3.9.0-rc5",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "complete",
+      "name": "3.9.0-rc5 -> 3.9.0",
+      "sqlite": "Reuse",
+      "eager": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "single_fault",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "single_fault",
+      "name": "foreign_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "single_fault",
+      "name": "edited_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "single_fault",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "single_fault",
+      "name": "missing_older_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "single_fault",
+      "name": "changed_newer_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      }
+    },
+    {
+      "motion": "kafka",
+      "group": "complete",
+      "name": "3.9.0 -> 3.9.1",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "otava-ipmc-rc3",
+      "group": "documented_negative",
+      "name": "0.6.0+incubating-RC3 -> 0.6.0-incubating-rc5",
+      "sqlite": "DoNotReuse",
+      "eager": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "fixed": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "otava-ipmc-rc3",
+      "group": "negative_control",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "otava-ipmc-rc3",
+      "group": "negative_control",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "otava-ipmc-rc3",
+      "group": "negative_control",
+      "name": "no_git_observations",
+      "sqlite": "DoNotReuse",
+      "eager": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "fixed": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "complete",
+      "name": "apache-parquet-1.17.0 -> apache-parquet-1.17.1-rc0",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "complete",
+      "name": "apache-parquet-1.17.1-rc0 -> apache-parquet-1.17.1",
+      "sqlite": "Reuse",
+      "eager": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Reuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "single_fault",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "single_fault",
+      "name": "foreign_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "single_fault",
+      "name": "edited_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "single_fault",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "single_fault",
+      "name": "missing_older_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "older"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "single_fault",
+      "name": "changed_newer_observation",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 4,
+        "support": [
+          "envelope",
+          "result",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer"
+        ]
+      }
+    },
+    {
+      "motion": "parquet-java",
+      "group": "complete",
+      "name": "apache-parquet-1.17.1 -> refs/heads/master",
+      "sqlite": "Review",
+      "eager": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result",
+          "older",
+          "newer"
+        ]
+      },
+      "result-first": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "fixed": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "Review",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "polaris-ipmc-rc5",
+      "group": "documented_negative",
+      "name": "apache-polaris-0.9.0-incubating-rc5 -> apache-polaris-0.9.0-incubating-rc6",
+      "sqlite": "DoNotReuse",
+      "eager": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "fixed": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      }
+    },
+    {
+      "motion": "polaris-ipmc-rc5",
+      "group": "negative_control",
+      "name": "missing_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "polaris-ipmc-rc5",
+      "group": "negative_control",
+      "name": "conflicting_registered_result",
+      "sqlite": "Defer",
+      "eager": {
+        "decision": "Defer",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "Defer",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "fixed": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "conditional": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      },
+      "policy": {
+        "decision": "Defer",
+        "reads": 2,
+        "support": [
+          "envelope",
+          "result"
+        ],
+        "read_order": [
+          "envelope",
+          "result"
+        ]
+      }
+    },
+    {
+      "motion": "polaris-ipmc-rc5",
+      "group": "negative_control",
+      "name": "no_git_observations",
+      "sqlite": "DoNotReuse",
+      "eager": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening",
+          "older",
+          "newer"
+        ]
+      },
+      "opening-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "opening",
+          "result"
+        ]
+      },
+      "result-first": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "fixed": {
+        "decision": "DoNotReuse",
+        "reads": 5,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "older",
+          "newer",
+          "opening"
+        ]
+      },
+      "conditional": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      },
+      "policy": {
+        "decision": "DoNotReuse",
+        "reads": 3,
+        "support": [
+          "envelope",
+          "result",
+          "opening"
+        ],
+        "read_order": [
+          "envelope",
+          "result",
+          "opening"
+        ]
+      }
+    }
+  ]
+}

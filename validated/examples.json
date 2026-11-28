@@ -1,0 +1,166 @@
+{
+  "polaris-ipmc-rc5": {
+    "policy": "two-reference-source-identity/2",
+    "motion": "polaris-ipmc-rc5",
+    "repository": "apache/polaris",
+    "outcome": "withdrawn",
+    "candidate_commit": "829dff6ec4728bf70e8a772c42bccb519679574e",
+    "candidate_basis": "The opening links both the candidate tag and the full object in the same repository.",
+    "registered_sources": [
+      {
+        "role": "opening",
+        "url": "https://lists.apache.org/thread/2ms5dspn0pkrm21xl3j5cgttvt0xt0dk"
+      },
+      {
+        "role": "result",
+        "url": "https://lists.apache.org/thread/tzmfw2x4qmqg8btffqhm9ndpn9jjrw6z"
+      }
+    ],
+    "verified_evidence": [
+      {
+        "role": "opening",
+        "url": "https://lists.apache.org/thread/2ms5dspn0pkrm21xl3j5cgttvt0xt0dk",
+        "supporting_urls": [],
+        "record_sha256": "017dd4b6073adb2b4df040c3813b43f0db54de47245b04acccc6c5dd06757d07"
+      },
+      {
+        "role": "result",
+        "url": "https://lists.apache.org/thread/tzmfw2x4qmqg8btffqhm9ndpn9jjrw6z",
+        "supporting_urls": [],
+        "record_sha256": "6ac2edd50aca204daff1f85b8c49854324e9b45bbe99b4ce49f987a668ffc88c"
+      }
+    ],
+    "observations": [
+      {
+        "side": "older",
+        "ref": "apache-polaris-0.9.0-incubating-rc5",
+        "received_commit": "829dff6ec4728bf70e8a772c42bccb519679574e",
+        "registered_commit": "829dff6ec4728bf70e8a772c42bccb519679574e",
+        "source": "https://github.com/apache/polaris/tree/apache-polaris-0.9.0-incubating-rc5",
+        "observed_at": "2026-11-25T01:42:34.346444+00:00"
+      },
+      {
+        "side": "newer",
+        "ref": "apache-polaris-0.9.0-incubating-rc6",
+        "received_commit": "4b18ec065ff16f74b11bc85fdc6ea9036eca7274",
+        "registered_commit": "4b18ec065ff16f74b11bc85fdc6ea9036eca7274",
+        "source": "https://github.com/apache/polaris/tree/apache-polaris-0.9.0-incubating-rc6",
+        "observed_at": "2026-11-25T01:42:34.346444+00:00"
+      }
+    ],
+    "decision": "DoNotReuse",
+    "reason": "motion_withdrawn",
+    "next_owner": "receiving maintainer",
+    "next_action": "Record this disposition and seek a separate successful motion or request a new vote."
+  },
+  "otava-ipmc-rc3": {
+    "policy": "two-reference-source-identity/2",
+    "motion": "otava-ipmc-rc3",
+    "repository": "apache/otava",
+    "outcome": "failed",
+    "candidate_commit": "5502d6b8af59cd1640b8639e22b939e24aa32d8f",
+    "candidate_basis": "The opening names the voted tag, peeled in the later Git observation.",
+    "registered_sources": [
+      {
+        "role": "opening",
+        "url": "https://lists.apache.org/thread/4dv29ghmky4h3v938moozwbt96dkfv3o"
+      },
+      {
+        "role": "result",
+        "url": "https://lists.apache.org/thread/4x9qt2gm6kp8xrjkgzdh6qlo1j7ndt2h"
+      }
+    ],
+    "verified_evidence": [
+      {
+        "role": "opening",
+        "url": "https://lists.apache.org/thread/4dv29ghmky4h3v938moozwbt96dkfv3o",
+        "supporting_urls": [],
+        "record_sha256": "3b29e4522098cb151d80f3c2327671911c16cdb29de346383f298bdeac637066"
+      },
+      {
+        "role": "result",
+        "url": "https://lists.apache.org/thread/4x9qt2gm6kp8xrjkgzdh6qlo1j7ndt2h",
+        "supporting_urls": [],
+        "record_sha256": "75c5d8f2bf951f172f7d4b24f72b53f325a0695ab732ad16862e7746e86b1b5c"
+      }
+    ],
+    "observations": [
+      {
+        "side": "older",
+        "ref": "0.6.0+incubating-RC3",
+        "received_commit": "5502d6b8af59cd1640b8639e22b939e24aa32d8f",
+        "registered_commit": "5502d6b8af59cd1640b8639e22b939e24aa32d8f",
+        "source": "https://github.com/apache/otava/tree/0.6.0%2Bincubating-RC3",
+        "observed_at": "2026-11-25T02:45:29.174490+00:00"
+      },
+      {
+        "side": "newer",
+        "ref": "0.6.0-incubating-rc5",
+        "received_commit": "19c4dfd6c868090424d611ea50572a4cd522382e",
+        "registered_commit": "19c4dfd6c868090424d611ea50572a4cd522382e",
+        "source": "https://github.com/apache/otava/tree/0.6.0-incubating-rc5",
+        "observed_at": "2026-11-25T02:45:29.174490+00:00"
+      }
+    ],
+    "decision": "DoNotReuse",
+    "reason": "motion_failed",
+    "next_owner": "receiving maintainer",
+    "next_action": "Record this disposition and seek a separate successful motion or request a new vote."
+  },
+  "kafka": {
+    "policy": "two-reference-source-identity/2",
+    "motion": "kafka",
+    "repository": "apache/kafka",
+    "outcome": "passed",
+    "candidate_commit": "84caaa6e9da06435411510a81fa321d4f99c351f",
+    "candidate_basis": "ballot names 3.9.0-rc5, resolved in the archived git and API snapshots",
+    "registered_sources": [
+      {
+        "role": "opening",
+        "url": "https://www.mail-archive.com/dev@kafka.apache.org/msg144524.html"
+      },
+      {
+        "role": "result",
+        "url": "https://www.mail-archive.com/dev@kafka.apache.org/msg144709.html"
+      }
+    ],
+    "verified_evidence": [
+      {
+        "role": "opening",
+        "url": "https://www.mail-archive.com/dev@kafka.apache.org/msg144524.html",
+        "supporting_urls": [],
+        "record_sha256": "9addb5a10f69fab5205c33a83f20ad5d39dc9c7c9129698109e1d8a88d350fa8"
+      },
+      {
+        "role": "result",
+        "url": "https://www.mail-archive.com/dev@kafka.apache.org/msg144709.html",
+        "supporting_urls": [
+          "https://www.mail-archive.com/dev@kafka.apache.org/msg144710.html"
+        ],
+        "record_sha256": "d3cb5db3597fecdaf2b8817ac5bf63374483c915ac059f4f8e8f1f9ebb03eca0"
+      }
+    ],
+    "observations": [
+      {
+        "side": "older",
+        "ref": "3.9.0",
+        "received_commit": "84caaa6e9da06435411510a81fa321d4f99c351f",
+        "registered_commit": "84caaa6e9da06435411510a81fa321d4f99c351f",
+        "source": "https://api.github.com/repos/apache/kafka/commits/3.9.0",
+        "observed_at": "2026-11-19T14:41:16.731660+00:00"
+      },
+      {
+        "side": "newer",
+        "ref": "3.9.1",
+        "received_commit": "f745dfdcee2b9851204ddbbcd423626ab87294bc",
+        "registered_commit": "f745dfdcee2b9851204ddbbcd423626ab87294bc",
+        "source": "https://api.github.com/repos/apache/kafka/commits/3.9.1",
+        "observed_at": "2026-11-19T14:41:16.731660+00:00"
+      }
+    ],
+    "decision": "Review",
+    "reason": "outside_scope_newer",
+    "next_owner": "release owner",
+    "next_action": "Review the uncovered source or identify another applicable motion."
+  }
+}

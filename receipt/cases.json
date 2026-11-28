@@ -1,0 +1,170 @@
+[
+  {
+    "motion": "arrow-rs",
+    "group": "development",
+    "older": "59.0.0",
+    "newer": "60.0.0-rc1",
+    "continuity": "Review",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "arrow-rs",
+    "group": "development",
+    "older": "60.0.0-rc1",
+    "newer": "60.0.0",
+    "continuity": "Reuse",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "arrow-rs",
+    "group": "development",
+    "older": "60.0.0",
+    "newer": "refs/heads/main",
+    "continuity": "Review",
+    "target_only_label": "Review"
+  },
+  {
+    "motion": "parquet-java",
+    "group": "development",
+    "older": "apache-parquet-1.17.0",
+    "newer": "apache-parquet-1.17.1-rc0",
+    "continuity": "Review",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "parquet-java",
+    "group": "development",
+    "older": "apache-parquet-1.17.1-rc0",
+    "newer": "apache-parquet-1.17.1",
+    "continuity": "Reuse",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "parquet-java",
+    "group": "development",
+    "older": "apache-parquet-1.17.1",
+    "newer": "refs/heads/master",
+    "continuity": "Review",
+    "target_only_label": "Review"
+  },
+  {
+    "motion": "iceberg",
+    "group": "development",
+    "older": "apache-iceberg-1.12.0-rc1",
+    "newer": "apache-iceberg-1.12.0-rc2",
+    "continuity": "Review",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "iceberg",
+    "group": "development",
+    "older": "apache-iceberg-1.12.0-rc2",
+    "newer": "apache-iceberg-1.12.0",
+    "continuity": "Reuse",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "iceberg",
+    "group": "development",
+    "older": "apache-iceberg-1.12.0",
+    "newer": "refs/heads/main",
+    "continuity": "Review",
+    "target_only_label": "Review"
+  },
+  {
+    "motion": "datafusion",
+    "group": "development",
+    "older": "55.0.0",
+    "newer": "55.1.0-rc1",
+    "continuity": "Review",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "datafusion",
+    "group": "development",
+    "older": "55.1.0-rc1",
+    "newer": "55.1.0",
+    "continuity": "Reuse",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "datafusion",
+    "group": "development",
+    "older": "55.1.0",
+    "newer": "refs/heads/main",
+    "continuity": "Review",
+    "target_only_label": "Review"
+  },
+  {
+    "motion": "datafusion-comet",
+    "group": "development",
+    "older": "1.1.0",
+    "newer": "1.2.0-rc1",
+    "continuity": "Review",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "datafusion-comet",
+    "group": "development",
+    "older": "1.2.0-rc1",
+    "newer": "1.2.0",
+    "continuity": "Reuse",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "datafusion-comet",
+    "group": "development",
+    "older": "1.2.0",
+    "newer": "refs/heads/main",
+    "continuity": "Review",
+    "target_only_label": "Review"
+  },
+  {
+    "motion": "datafusion-sqlparser-rs",
+    "group": "development",
+    "older": "v0.63.0",
+    "newer": "v0.64.0-rc1",
+    "continuity": "Review",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "datafusion-sqlparser-rs",
+    "group": "development",
+    "older": "v0.64.0-rc1",
+    "newer": "v0.64.0",
+    "continuity": "Reuse",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "datafusion-sqlparser-rs",
+    "group": "development",
+    "older": "v0.64.0",
+    "newer": "refs/heads/main",
+    "continuity": "Review",
+    "target_only_label": "Review"
+  },
+  {
+    "motion": "kafka",
+    "group": "prespecified_pairs",
+    "older": "3.8.0",
+    "newer": "3.9.0-rc5",
+    "continuity": "Review",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "kafka",
+    "group": "prespecified_pairs",
+    "older": "3.9.0-rc5",
+    "newer": "3.9.0",
+    "continuity": "Reuse",
+    "target_only_label": "Reuse"
+  },
+  {
+    "motion": "kafka",
+    "group": "prespecified_pairs",
+    "older": "3.9.0",
+    "newer": "3.9.1",
+    "continuity": "Review",
+    "target_only_label": "Review"
+  }
+]

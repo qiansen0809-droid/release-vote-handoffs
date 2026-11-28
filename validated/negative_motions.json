@@ -1,0 +1,66 @@
+{
+  "motions": {
+    "polaris-ipmc-rc5": {
+      "name": "Apache Polaris Incubator PMC 0.9.0 RC5",
+      "repository": "apache/polaris",
+      "refs": {
+        "apache-polaris-0.9.0-incubating-rc5": {
+          "commit": "829dff6ec4728bf70e8a772c42bccb519679574e",
+          "source": "https://github.com/apache/polaris/tree/apache-polaris-0.9.0-incubating-rc5",
+          "observed_at": "2026-11-25T01:42:34.346444+00:00"
+        },
+        "apache-polaris-0.9.0-incubating-rc6": {
+          "commit": "4b18ec065ff16f74b11bc85fdc6ea9036eca7274",
+          "source": "https://github.com/apache/polaris/tree/apache-polaris-0.9.0-incubating-rc6",
+          "observed_at": "2026-11-25T01:42:34.346444+00:00"
+        }
+      }
+    },
+    "otava-ipmc-rc3": {
+      "name": "Apache Otava Incubator PMC 0.6.0 RC3",
+      "repository": "apache/otava",
+      "refs": {
+        "0.6.0+incubating-RC3": {
+          "commit": "5502d6b8af59cd1640b8639e22b939e24aa32d8f",
+          "source": "https://github.com/apache/otava/tree/0.6.0%2Bincubating-RC3",
+          "observed_at": "2026-11-25T02:45:29.174490+00:00"
+        },
+        "0.6.0-incubating-rc5": {
+          "commit": "19c4dfd6c868090424d611ea50572a4cd522382e",
+          "source": "https://github.com/apache/otava/tree/0.6.0-incubating-rc5",
+          "observed_at": "2026-11-25T02:45:29.174490+00:00"
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "motion": "polaris-ipmc-rc5",
+      "role": "opening",
+      "url": "https://lists.apache.org/thread/2ms5dspn0pkrm21xl3j5cgttvt0xt0dk",
+      "candidate_commit": "829dff6ec4728bf70e8a772c42bccb519679574e",
+      "candidate_basis": "The opening links both the candidate tag and the full object in the same repository."
+    },
+    {
+      "motion": "polaris-ipmc-rc5",
+      "role": "result",
+      "url": "https://lists.apache.org/thread/tzmfw2x4qmqg8btffqhm9ndpn9jjrw6z",
+      "outcome": "withdrawn",
+      "supporting_urls": []
+    },
+    {
+      "motion": "otava-ipmc-rc3",
+      "role": "opening",
+      "url": "https://lists.apache.org/thread/4dv29ghmky4h3v938moozwbt96dkfv3o",
+      "candidate_commit": "5502d6b8af59cd1640b8639e22b939e24aa32d8f",
+      "candidate_basis": "The opening names the voted tag, peeled in the later Git observation."
+    },
+    {
+      "motion": "otava-ipmc-rc3",
+      "role": "result",
+      "url": "https://lists.apache.org/thread/4x9qt2gm6kp8xrjkgzdh6qlo1j7ndt2h",
+      "outcome": "failed",
+      "supporting_urls": []
+    }
+  ]
+}

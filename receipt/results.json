@@ -1,0 +1,815 @@
+{
+  "summary": {
+    "development": {
+      "vote_only": {
+        "total": 18,
+        "correct": 6,
+        "decided": 18,
+        "deferred": 0,
+        "false_reuse": 12,
+        "non_reusable": 12,
+        "unnecessary_review": 0,
+        "reusable": 6
+      },
+      "older_only": {
+        "total": 18,
+        "correct": 12,
+        "decided": 18,
+        "deferred": 0,
+        "false_reuse": 6,
+        "non_reusable": 12,
+        "unnecessary_review": 0,
+        "reusable": 6
+      },
+      "newer_only": {
+        "total": 18,
+        "correct": 12,
+        "decided": 18,
+        "deferred": 0,
+        "false_reuse": 6,
+        "non_reusable": 12,
+        "unnecessary_review": 0,
+        "reusable": 6
+      },
+      "structured": {
+        "total": 18,
+        "correct": 18,
+        "decided": 18,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 12,
+        "unnecessary_review": 0,
+        "reusable": 6
+      },
+      "receipt": {
+        "total": 18,
+        "correct": 18,
+        "decided": 18,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 12,
+        "unnecessary_review": 0,
+        "reusable": 6
+      }
+    },
+    "prespecified_pairs": {
+      "vote_only": {
+        "total": 3,
+        "correct": 1,
+        "decided": 3,
+        "deferred": 0,
+        "false_reuse": 2,
+        "non_reusable": 2,
+        "unnecessary_review": 0,
+        "reusable": 1
+      },
+      "older_only": {
+        "total": 3,
+        "correct": 2,
+        "decided": 3,
+        "deferred": 0,
+        "false_reuse": 1,
+        "non_reusable": 2,
+        "unnecessary_review": 0,
+        "reusable": 1
+      },
+      "newer_only": {
+        "total": 3,
+        "correct": 2,
+        "decided": 3,
+        "deferred": 0,
+        "false_reuse": 1,
+        "non_reusable": 2,
+        "unnecessary_review": 0,
+        "reusable": 1
+      },
+      "structured": {
+        "total": 3,
+        "correct": 3,
+        "decided": 3,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 2,
+        "unnecessary_review": 0,
+        "reusable": 1
+      },
+      "receipt": {
+        "total": 3,
+        "correct": 3,
+        "decided": 3,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 2,
+        "unnecessary_review": 0,
+        "reusable": 1
+      }
+    },
+    "all": {
+      "vote_only": {
+        "total": 21,
+        "correct": 7,
+        "decided": 21,
+        "deferred": 0,
+        "false_reuse": 14,
+        "non_reusable": 14,
+        "unnecessary_review": 0,
+        "reusable": 7
+      },
+      "older_only": {
+        "total": 21,
+        "correct": 14,
+        "decided": 21,
+        "deferred": 0,
+        "false_reuse": 7,
+        "non_reusable": 14,
+        "unnecessary_review": 0,
+        "reusable": 7
+      },
+      "newer_only": {
+        "total": 21,
+        "correct": 14,
+        "decided": 21,
+        "deferred": 0,
+        "false_reuse": 7,
+        "non_reusable": 14,
+        "unnecessary_review": 0,
+        "reusable": 7
+      },
+      "structured": {
+        "total": 21,
+        "correct": 21,
+        "decided": 21,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 14,
+        "unnecessary_review": 0,
+        "reusable": 7
+      },
+      "receipt": {
+        "total": 21,
+        "correct": 21,
+        "decided": 21,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 14,
+        "unnecessary_review": 0,
+        "reusable": 7
+      }
+    },
+    "target_only_task": {
+      "newer_only": {
+        "total": 21,
+        "correct": 21,
+        "decided": 21,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 0,
+        "reusable": 14
+      },
+      "receipt": {
+        "total": 21,
+        "correct": 14,
+        "decided": 21,
+        "deferred": 0,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 7,
+        "reusable": 14
+      }
+    },
+    "injections": {
+      "missing_result": {
+        "total": 7,
+        "correct": 7,
+        "decided": 0,
+        "deferred": 7,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 0,
+        "reusable": 0
+      },
+      "foreign_result": {
+        "total": 7,
+        "correct": 7,
+        "decided": 0,
+        "deferred": 7,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 0,
+        "reusable": 0
+      },
+      "edited_result": {
+        "total": 7,
+        "correct": 7,
+        "decided": 0,
+        "deferred": 7,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 0,
+        "reusable": 0
+      },
+      "conflicting_registered_result": {
+        "total": 7,
+        "correct": 7,
+        "decided": 0,
+        "deferred": 7,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 0,
+        "reusable": 0
+      },
+      "missing_older_observation": {
+        "total": 7,
+        "correct": 7,
+        "decided": 0,
+        "deferred": 7,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 0,
+        "reusable": 0
+      },
+      "changed_newer_observation": {
+        "total": 7,
+        "correct": 7,
+        "decided": 0,
+        "deferred": 7,
+        "false_reuse": 0,
+        "non_reusable": 7,
+        "unnecessary_review": 0,
+        "reusable": 0
+      }
+    }
+  },
+  "rows": [
+    {
+      "motion": "arrow-rs",
+      "group": "development",
+      "older": "59.0.0",
+      "newer": "60.0.0-rc1",
+      "continuity": "Review",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Review",
+      "newer_only": "Reuse",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "development",
+      "older": "60.0.0-rc1",
+      "newer": "60.0.0",
+      "continuity": "Reuse",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Reuse",
+      "structured": "Reuse",
+      "receipt": "Reuse"
+    },
+    {
+      "motion": "arrow-rs",
+      "group": "development",
+      "older": "60.0.0",
+      "newer": "refs/heads/main",
+      "continuity": "Review",
+      "target_only_label": "Review",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Review",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "parquet-java",
+      "group": "development",
+      "older": "apache-parquet-1.17.0",
+      "newer": "apache-parquet-1.17.1-rc0",
+      "continuity": "Review",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Review",
+      "newer_only": "Reuse",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "parquet-java",
+      "group": "development",
+      "older": "apache-parquet-1.17.1-rc0",
+      "newer": "apache-parquet-1.17.1",
+      "continuity": "Reuse",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Reuse",
+      "structured": "Reuse",
+      "receipt": "Reuse"
+    },
+    {
+      "motion": "parquet-java",
+      "group": "development",
+      "older": "apache-parquet-1.17.1",
+      "newer": "refs/heads/master",
+      "continuity": "Review",
+      "target_only_label": "Review",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Review",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "iceberg",
+      "group": "development",
+      "older": "apache-iceberg-1.12.0-rc1",
+      "newer": "apache-iceberg-1.12.0-rc2",
+      "continuity": "Review",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Review",
+      "newer_only": "Reuse",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "iceberg",
+      "group": "development",
+      "older": "apache-iceberg-1.12.0-rc2",
+      "newer": "apache-iceberg-1.12.0",
+      "continuity": "Reuse",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Reuse",
+      "structured": "Reuse",
+      "receipt": "Reuse"
+    },
+    {
+      "motion": "iceberg",
+      "group": "development",
+      "older": "apache-iceberg-1.12.0",
+      "newer": "refs/heads/main",
+      "continuity": "Review",
+      "target_only_label": "Review",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Review",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "datafusion",
+      "group": "development",
+      "older": "55.0.0",
+      "newer": "55.1.0-rc1",
+      "continuity": "Review",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Review",
+      "newer_only": "Reuse",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "datafusion",
+      "group": "development",
+      "older": "55.1.0-rc1",
+      "newer": "55.1.0",
+      "continuity": "Reuse",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Reuse",
+      "structured": "Reuse",
+      "receipt": "Reuse"
+    },
+    {
+      "motion": "datafusion",
+      "group": "development",
+      "older": "55.1.0",
+      "newer": "refs/heads/main",
+      "continuity": "Review",
+      "target_only_label": "Review",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Review",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "development",
+      "older": "1.1.0",
+      "newer": "1.2.0-rc1",
+      "continuity": "Review",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Review",
+      "newer_only": "Reuse",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "development",
+      "older": "1.2.0-rc1",
+      "newer": "1.2.0",
+      "continuity": "Reuse",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Reuse",
+      "structured": "Reuse",
+      "receipt": "Reuse"
+    },
+    {
+      "motion": "datafusion-comet",
+      "group": "development",
+      "older": "1.2.0",
+      "newer": "refs/heads/main",
+      "continuity": "Review",
+      "target_only_label": "Review",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Review",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "development",
+      "older": "v0.63.0",
+      "newer": "v0.64.0-rc1",
+      "continuity": "Review",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Review",
+      "newer_only": "Reuse",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "development",
+      "older": "v0.64.0-rc1",
+      "newer": "v0.64.0",
+      "continuity": "Reuse",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Reuse",
+      "structured": "Reuse",
+      "receipt": "Reuse"
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "group": "development",
+      "older": "v0.64.0",
+      "newer": "refs/heads/main",
+      "continuity": "Review",
+      "target_only_label": "Review",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Review",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "kafka",
+      "group": "prespecified_pairs",
+      "older": "3.8.0",
+      "newer": "3.9.0-rc5",
+      "continuity": "Review",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Review",
+      "newer_only": "Reuse",
+      "structured": "Review",
+      "receipt": "Review"
+    },
+    {
+      "motion": "kafka",
+      "group": "prespecified_pairs",
+      "older": "3.9.0-rc5",
+      "newer": "3.9.0",
+      "continuity": "Reuse",
+      "target_only_label": "Reuse",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Reuse",
+      "structured": "Reuse",
+      "receipt": "Reuse"
+    },
+    {
+      "motion": "kafka",
+      "group": "prespecified_pairs",
+      "older": "3.9.0",
+      "newer": "3.9.1",
+      "continuity": "Review",
+      "target_only_label": "Review",
+      "vote_only": "Reuse",
+      "older_only": "Reuse",
+      "newer_only": "Review",
+      "structured": "Review",
+      "receipt": "Review"
+    }
+  ],
+  "faults": [
+    {
+      "motion": "arrow-rs",
+      "fault": "missing_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The packet has 0 result records. Supply the matching registered result with its source URL."
+    },
+    {
+      "motion": "arrow-rs",
+      "fault": "foreign_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "arrow-rs",
+      "fault": "edited_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "arrow-rs",
+      "fault": "conflicting_registered_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The archive has 2 active result records. Identify the authoritative result and record how conflicting or superseded entries were resolved."
+    },
+    {
+      "motion": "arrow-rs",
+      "fault": "missing_older_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The older observation of 60.0.0-rc1 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "arrow-rs",
+      "fault": "changed_newer_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The newer observation of 60.0.0 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "parquet-java",
+      "fault": "missing_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The packet has 0 result records. Supply the matching registered result with its source URL."
+    },
+    {
+      "motion": "parquet-java",
+      "fault": "foreign_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "parquet-java",
+      "fault": "edited_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "parquet-java",
+      "fault": "conflicting_registered_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The archive has 2 active result records. Identify the authoritative result and record how conflicting or superseded entries were resolved."
+    },
+    {
+      "motion": "parquet-java",
+      "fault": "missing_older_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The older observation of apache-parquet-1.17.1-rc0 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "parquet-java",
+      "fault": "changed_newer_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The newer observation of apache-parquet-1.17.1 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "iceberg",
+      "fault": "missing_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The packet has 0 result records. Supply the matching registered result with its source URL."
+    },
+    {
+      "motion": "iceberg",
+      "fault": "foreign_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "iceberg",
+      "fault": "edited_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "iceberg",
+      "fault": "conflicting_registered_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The archive has 2 active result records. Identify the authoritative result and record how conflicting or superseded entries were resolved."
+    },
+    {
+      "motion": "iceberg",
+      "fault": "missing_older_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The older observation of apache-iceberg-1.12.0-rc2 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "iceberg",
+      "fault": "changed_newer_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The newer observation of apache-iceberg-1.12.0 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "datafusion",
+      "fault": "missing_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The packet has 0 result records. Supply the matching registered result with its source URL."
+    },
+    {
+      "motion": "datafusion",
+      "fault": "foreign_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "datafusion",
+      "fault": "edited_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "datafusion",
+      "fault": "conflicting_registered_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The archive has 2 active result records. Identify the authoritative result and record how conflicting or superseded entries were resolved."
+    },
+    {
+      "motion": "datafusion",
+      "fault": "missing_older_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The older observation of 55.1.0-rc1 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "datafusion",
+      "fault": "changed_newer_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The newer observation of 55.1.0 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "datafusion-comet",
+      "fault": "missing_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The packet has 0 result records. Supply the matching registered result with its source URL."
+    },
+    {
+      "motion": "datafusion-comet",
+      "fault": "foreign_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "datafusion-comet",
+      "fault": "edited_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "datafusion-comet",
+      "fault": "conflicting_registered_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The archive has 2 active result records. Identify the authoritative result and record how conflicting or superseded entries were resolved."
+    },
+    {
+      "motion": "datafusion-comet",
+      "fault": "missing_older_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The older observation of 1.2.0-rc1 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "datafusion-comet",
+      "fault": "changed_newer_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The newer observation of 1.2.0 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "fault": "missing_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The packet has 0 result records. Supply the matching registered result with its source URL."
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "fault": "foreign_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "fault": "edited_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "fault": "conflicting_registered_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The archive has 2 active result records. Identify the authoritative result and record how conflicting or superseded entries were resolved."
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "fault": "missing_older_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The older observation of v0.64.0-rc1 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "datafusion-sqlparser-rs",
+      "fault": "changed_newer_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The newer observation of v0.64.0 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "kafka",
+      "fault": "missing_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The packet has 0 result records. Supply the matching registered result with its source URL."
+    },
+    {
+      "motion": "kafka",
+      "fault": "foreign_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "kafka",
+      "fault": "edited_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The result record differs from the registered record. Reconcile its motion, source and contents with the listed registered result."
+    },
+    {
+      "motion": "kafka",
+      "fault": "conflicting_registered_result",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The archive has 2 active result records. Identify the authoritative result and record how conflicting or superseded entries were resolved."
+    },
+    {
+      "motion": "kafka",
+      "fault": "missing_older_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The older observation of 3.9.0-rc5 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    },
+    {
+      "motion": "kafka",
+      "fault": "changed_newer_observation",
+      "expected": "Defer",
+      "decision": "Defer",
+      "reason": "The newer observation of 3.9.0 is missing or disagrees with its pin. Resolve the reference at the handoff time and reconcile the two commits."
+    }
+  ]
+}

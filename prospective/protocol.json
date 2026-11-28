@@ -1,0 +1,17 @@
+{
+  "document_scope": "Public summary of the sampling and evaluation protocol.",
+  "fixed_utc": "2026-11-25T03:32:36Z",
+  "families": [
+    ["avro","1.11.3","release-1.11.3"],
+    ["druid","30.0.0","druid-30.0.0"],
+    ["bookkeeper","4.17.1","release-4.17.1"],
+    ["zookeeper","3.9.2","release-3.9.2"],
+    ["maven","3.9.6","maven-3.9.6"]
+  ],
+  "sampling": "Five purposively selected project/version/final-tag triples named before any source lookup for this evaluation. No substitutions. Non-random Apache convenience sample, independently operated within the project, without external preregistration.",
+  "retrieval": "Use the existing portable version+VOTE subject search on dev@project.apache.org and all returned messages. Collect public Git refs at capture. Always include the preselected exact final ref and every tag containing the requested version, including unsuffixed final and candidate spellings. When smart-Git safety or connectivity prevents fetching, resolve exactly those same refs from GitHub public Git refs/tag APIs or dated mail records per trace. Preserve absence and distinguish unavailable transport from an observed absent ref. No guessing a different final tag.",
+  "census": "Source-audit every returned message without access to either new or baseline predictions. Include actual openings for this product version even without an RC number in the subject or body. Multiple openings/withdrawal/replacement with no number retain distinct opening URLs. Exclude other repositories/subproducts. Record every excluded nonreply title or zero-hit family. Do not credit a parser that emits no row.",
+  "outcomes": "Use the previous scope/rule.md semantics. Only an unambiguous same-motion collective announcement or explicit withdrawal by the opening sender establishes disposition. An individual ballot and successor proposal alone do not establish an outcome. A cited conflict must remain visible; unknown, contradictory or unclear evidence defers. A numbered tag is a corroborating designation, not an outcome. An unchanged final ref designated as the release object in an unnumbered motion can serve as the explicitly named source ref; report that identity separately.",
+  "reference": "For current_two_tag, compare the named candidate and fixed final refs in the same repository, when positive. A named historical full-SHA conflict with the candidate observation or unavailable pin defers. For historical_destination, require a dated full source commit in the opening, independent of current candidate tag availability, then compare with final. Never count binary signatures, source-release package checksums or individual ballots as Git observations. A verified negative yields DoNotReuse on both questions regardless of source fields if the motion itself is identifiable.",
+  "independence": "This analyst inspects actual public sources. These reference judgments are interpretations of the public sources and are not an independent human annotation set. Algorithm developer must never see prospective examples, choices or results before the algorithm SHA256 freeze. Record freeze status and implementation/replay hashes separately. All releases and messages remain in the report."
+}

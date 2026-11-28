@@ -1,0 +1,2234 @@
+{
+  "calcite": {
+    "subset": "development",
+    "project": "calcite",
+    "repository": "apache/calcite",
+    "version": "1.37.0",
+    "final_tag": "calcite-1.37.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23143.html",
+        "date": "2024-04-22",
+        "subject": "[VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-01",
+        "body_sha256": "0970f49784d7ecc35f4a40795d52678e05a81f232431aa029c7c3ff9d870e773"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23144.html",
+        "date": "2024-04-22",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-02",
+        "body_sha256": "d62576198e5a61d06c21a414f474483523b429bc856767ecc28d7022756e115d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23145.html",
+        "date": "2024-04-23",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-03",
+        "body_sha256": "371dd90ca810fee7802c7da6a57ef94651879a6c287a9ef00264caebf5eb4252"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23149.html",
+        "date": "2024-04-24",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-04",
+        "body_sha256": "afb15f00c7f3d77677c7d6ccd74ddcbddb007a433fa2d137125e8c87167fb3c0"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23151.html",
+        "date": "2024-04-24",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-05",
+        "body_sha256": "961f4e9871cbc86ca85fd8d4ba3c5abd08fbaec06fc285ed9ff86e007c9f6e1b"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23152.html",
+        "date": "2024-04-24",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-01",
+        "body_sha256": "c4dfb2f46e7888199f986addd0389dd56ec5f3ed02325d9d68158b559d0c05f3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23153.html",
+        "date": "2024-04-24",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-03",
+        "body_sha256": "37d0a385b4fa759865b33db3d2ab1df1b5f4ddea09da30d1c60232c03590b97d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23154.html",
+        "date": "2024-04-24",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-01",
+        "body_sha256": "840c3f68b691fb14d3757c99dd812fbecbe9483607070e01dcd89def3ee326cc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23155.html",
+        "date": "2024-04-24",
+        "subject": "[CANCEL][VOTE] Release Apache Calcite 1.37.0 (release candidate 1)",
+        "sender": "author-01",
+        "body_sha256": "7eb56fe14d138367fc207e09056c69c5c82a0df596b308dca32a35e3a382fbc5"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23156.html",
+        "date": "2024-04-25",
+        "subject": "[VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-01",
+        "body_sha256": "f7907a0122ff5ddabcda28181b16d26bf31d09055efc89857f2a7c221cdab364"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23157.html",
+        "date": "2024-04-26",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-02",
+        "body_sha256": "be2a7900e60390f0d3f0b4c9558736dda8822645a0b7d67296963e684228eed6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23159.html",
+        "date": "2024-04-26",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-03",
+        "body_sha256": "d60668151575fd970431896671916175508e7623a9375e592892f8dc3182727c"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23161.html",
+        "date": "2024-04-26",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-06",
+        "body_sha256": "5acf751956b825e6e217bb263db356a49edfbace46e785f706a8d8750445f7d3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23164.html",
+        "date": "2024-04-27",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-01",
+        "body_sha256": "fc770a14f65867df3450974c928f992086bb1266684426af5b9914c0dc42b877"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23166.html",
+        "date": "2024-04-27",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-07",
+        "body_sha256": "70186d2929ec9199ce15b0a96219334098ee820b478ccfd671979e1b77fc8be6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23169.html",
+        "date": "2024-04-28",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-01",
+        "body_sha256": "c6035cc23be963c8c10392697dd4df60dff3696071120e68d1e9798bb10f0b45"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23170.html",
+        "date": "2024-04-28",
+        "subject": "[CANCEL][VOTE] Release Apache Calcite 1.37.0 (release candidate 2)",
+        "sender": "author-01",
+        "body_sha256": "ec1bf697f7d2b2ed7b1e78a4cd0e55fffae22449aabba16336db3bdd2d48973a"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23171.html",
+        "date": "2024-04-28",
+        "subject": "[VOTE] Release Apache Calcite 1.37.0 (release candidate 3)",
+        "sender": "author-01",
+        "body_sha256": "886524bd9dd7b3576dc7e126c4a4d056387b20a60d7f72104d096bc4eed6614d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23172.html",
+        "date": "2024-04-28",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 3)",
+        "sender": "author-01",
+        "body_sha256": "3b93b3f9753f0451ffd54ed7161c6e6f6fb8e6abe209cc238d4d4cd84455cb22"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23174.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 3)",
+        "sender": "author-01",
+        "body_sha256": "7ab6a6f10d79663f7b0a1ada5ab0d72d0e08f14fdd3f1bc2f7d849c654643a98"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23175.html",
+        "date": "2024-04-29",
+        "subject": "[CANCEL][VOTE] Release Apache Calcite 1.37.0, release candidate 3)",
+        "sender": "author-01",
+        "body_sha256": "a2e20b15b06aef65ba495c0207b01aaced522d20e27610fd7fbe0331d7396ad0"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23176.html",
+        "date": "2024-04-29",
+        "subject": "[VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-01",
+        "body_sha256": "9c1f5bee5a021c64806f82459be0e7b78d0676132230d5ec07b25e5e7282cf67"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23177.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-08",
+        "body_sha256": "6b8edbe7677c2166b3c877d23a4345a083f0217138cef63644c6a1965d6dbbaf"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23178.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-01",
+        "body_sha256": "dc907880c46b83a4bc678fac129b34bbfa5bd986b0f691381572650781d47d53"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23180.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-08",
+        "body_sha256": "0c7d3bad5e927fa0ab1b99d91162629e5a7473858613b64b1137ca2216f5b484"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23181.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-01",
+        "body_sha256": "509284e1e83cfcd7f63cc0fb82c45d7e024a41c227e77c7ac4fdae07596cd526"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23182.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-08",
+        "body_sha256": "1b794dd8a27c3f664671cf04ed0e8c8597fe49397176805e599f000a977877b9"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23183.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-01",
+        "body_sha256": "e28a34754892135824a70d2b7bc9805dabfa0a75eef204c1ba1041f8dbcecb67"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23185.html",
+        "date": "2024-04-29",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-01",
+        "body_sha256": "4e0de3b04dc1d396eeec6b718d9208261e2febea1ae56b432c48671aed64e5b4"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23186.html",
+        "date": "2024-04-30",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-03",
+        "body_sha256": "fbe450937ec5f4dfc991aff756f861858a5a9407dbd2f03c9bb2d8d4b22fe1c0"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23187.html",
+        "date": "2024-04-30",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-05",
+        "body_sha256": "1b545eeb84e9bed59935df2ec6d919c15fd7b3913769b168f37b114fe6eff7f8"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23189.html",
+        "date": "2024-04-30",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-02",
+        "body_sha256": "2feed9dc7a5fb7dbe604936e82085b32f38b964f9456c3a6a45c8a508052a30e"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23190.html",
+        "date": "2024-04-30",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-03",
+        "body_sha256": "b60a93fdf36d954aeac6fc9811cf41e26e4ea3e5e1bb314f21c1fa9f0eeb6113"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23194.html",
+        "date": "2024-04-30",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-07",
+        "body_sha256": "f1877bca9e024fda66739dff3ab1008d7d93c84a07d79484763e067fd7f9b9bc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23195.html",
+        "date": "2024-04-30",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-09",
+        "body_sha256": "49a40654fe3d0dcda48b414c76da1fb0e3a121266b6025e49b2adbecda60ca63"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23197.html",
+        "date": "2024-04-30",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-10",
+        "body_sha256": "dc1ad14d730d93e466d25cb288e56759c64a7b2a8083477a7949da4d5e819ad0"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23200.html",
+        "date": "2024-05-01",
+        "subject": "Re: [VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-03",
+        "body_sha256": "104202a1c9e2c9eed2e4ac772382c519f1fde9c6cce475d633a711849a4840ef"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@calcite.apache.org/msg23211.html",
+        "date": "2024-05-05",
+        "subject": "[RESULT][VOTE] Release Apache Calcite 1.37.0 (release candidate 4)",
+        "sender": "author-01",
+        "body_sha256": "da8560bc9e6f09df1f55cc92fa82170f6a29b03c31dbd3b1cb3aa2718fb066da"
+      }
+    ],
+    "tags": {
+      "calcite-1.37.0": {
+        "commit": "61ee73e95129873d8bd648e6b0ac9e5f85ea4a33",
+        "url": "https://github.com/apache/calcite/tree/calcite-1.37.0",
+        "ref_object": "14ab7c28ddd4c9e742fcba5108d20108386e5edb"
+      },
+      "calcite-1.37.0-rc0": {
+        "commit": "53fd905eb4c730b4bedd49fa6569d5b0de47f021",
+        "url": "https://github.com/apache/calcite/tree/calcite-1.37.0-rc0",
+        "ref_object": "b5e787e386774bc8fe57d4e4e6f431da278273a3"
+      },
+      "calcite-1.37.0-rc2": {
+        "commit": "6d8175111ec72f65cb12815d5d519680f62dfd08",
+        "url": "https://github.com/apache/calcite/tree/calcite-1.37.0-rc2",
+        "ref_object": "3e9e9295d3b1778673be8fcc34a8eab6d2852263"
+      },
+      "calcite-1.37.0-rc3": {
+        "commit": "27c206d93d0bcd5692a76fd53feafa68a48afcbf",
+        "url": "https://github.com/apache/calcite/tree/calcite-1.37.0-rc3",
+        "ref_object": "33ed660c34e4046db68b8aa6ee25ff9f9ea384fa"
+      },
+      "calcite-1.37.0-rc4": {
+        "commit": "044db3d72ee53c1a82ce68b0c2a9b4f0bed81f18",
+        "url": "https://github.com/apache/calcite/tree/calcite-1.37.0-rc4",
+        "ref_object": "c5447f7d5053dc616c471ad4cc2eaa297b32e028"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/calcite.git",
+      "observed_utc": "2026-11-25T01:57:00.961882+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40calcite.apache.org&q=subject%3A%281.37.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "beam": {
+    "subset": "development",
+    "project": "beam",
+    "repository": "apache/beam",
+    "version": "2.60.0",
+    "final_tag": "v2.60.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30219.html",
+        "date": "2024-10-10",
+        "subject": "[VOTE] Release 2.60.0, release candidate #1",
+        "sender": "author-01",
+        "body_sha256": "c206906d0bc36b0cb9a240848c078cb9386b7d0b6d1bfd52ba834e679531949a"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30220.html",
+        "date": "2024-10-10",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #1",
+        "sender": "author-02",
+        "body_sha256": "6482ab32766c46b9056e775c88f96714c28774626c56a12a06abed6cb5236364"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30223.html",
+        "date": "2024-10-13",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #1",
+        "sender": "author-01",
+        "body_sha256": "eb3e9dd2bdd23561efa5412a3fdaf775ecc8fdd747cdb5c8bb94acdfba76f023"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30226.html",
+        "date": "2024-10-14",
+        "subject": "[VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-01",
+        "body_sha256": "4df799cf6c8bbe79d82a2f6c71f03de96dded56af7e20055dbc7ad50652943d7"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30227.html",
+        "date": "2024-10-14",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-02",
+        "body_sha256": "0c8e54ddb8f53c9d45d9f96752aa1e66d04975a0f1141124d0c1b6142df2caef"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30229.html",
+        "date": "2024-10-15",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-03",
+        "body_sha256": "1000ab6553516518c8cfdb668eadab7a37871ad371468b55a4613fe38f46d756"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30230.html",
+        "date": "2024-10-15",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-04",
+        "body_sha256": "d15ca7eea3400f44fb54a6872b17c5b69138c8a20c615bcbb7dfc76b95d39895"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30231.html",
+        "date": "2024-10-15",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-05",
+        "body_sha256": "1f9c6820fb46907bddbc4d53bd3f3a5d0fe202fec668572635641a366cd9b61c"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30232.html",
+        "date": "2024-10-16",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-06",
+        "body_sha256": "ae57cf19472152798776103b04846ac816490e6e4d0713f8d7e8122141b7093e"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30234.html",
+        "date": "2024-10-16",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-01",
+        "body_sha256": "c68514fb19fccbedbdac37bc37303e707f85a61c54a653487cefda36bfacdb34"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30235.html",
+        "date": "2024-10-16",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-07",
+        "body_sha256": "f67dfccb5a5f5b2b161a410acf07d3721921f582b3ec0c0990256b83744359d9"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30237.html",
+        "date": "2024-10-16",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-01",
+        "body_sha256": "2a2fda296e2d99157337b241e551d0d00960b66a292a8516aebf2deea3decf3b"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30240.html",
+        "date": "2024-10-16",
+        "subject": "Re: [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-07",
+        "body_sha256": "46db7776ac3ec231465458cc29b9b4c50b040f1e23e9f00f29b8467ad6e40514"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30246.html",
+        "date": "2024-10-17",
+        "subject": "Subject: [RESULT] [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-01",
+        "body_sha256": "3c5c9f6664003ca8659cda769edc5995add2d6adf50868235a2c9b8c9518625d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30253.html",
+        "date": "2024-10-18",
+        "subject": "Re: Subject: [RESULT] [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-01",
+        "body_sha256": "27ee1ce4ea5a6c11712bf7907bebb30855944a4a34aa424089070fb25f742fe1"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@beam.apache.org/msg30257.html",
+        "date": "2024-10-18",
+        "subject": "Re: Subject: [RESULT] [VOTE] Release 2.60.0, release candidate #2",
+        "sender": "author-08",
+        "body_sha256": "da9f987c16c92fcc510dc74b8c7e64b9f566629d9d50b3557b3f98086e8ba7ba"
+      }
+    ],
+    "tags": {
+      "sdks/v2.60.0-RC1": {
+        "commit": "2c5ac456c1600134d144e076b3ca0c7c56626de2",
+        "url": "https://github.com/apache/beam/tree/sdks/v2.60.0-RC1",
+        "ref_object": "92847ff6bb7be1b62a63f7658c7f023e818cc946"
+      },
+      "sdks/v2.60.0-RC2": {
+        "commit": "02208fc59887f22d5130310c902bb422f1f0be33",
+        "url": "https://github.com/apache/beam/tree/sdks/v2.60.0-RC2",
+        "ref_object": "03aaae7fcf5d9a6c5af03acaaecd8e67bb01ca99"
+      },
+      "v2.60.0": {
+        "commit": "02208fc59887f22d5130310c902bb422f1f0be33",
+        "url": "https://github.com/apache/beam/tree/v2.60.0",
+        "ref_object": "53c145abe0e5d90ead1309e85c257fcd2e6aeaf5"
+      },
+      "v2.60.0-RC1": {
+        "commit": "2c5ac456c1600134d144e076b3ca0c7c56626de2",
+        "url": "https://github.com/apache/beam/tree/v2.60.0-RC1",
+        "ref_object": "263530fdb62aca9170dad8bbc126191765df701a"
+      },
+      "v2.60.0-RC2": {
+        "commit": "02208fc59887f22d5130310c902bb422f1f0be33",
+        "url": "https://github.com/apache/beam/tree/v2.60.0-RC2",
+        "ref_object": "02420e43efe8c6680773cc75badba756c03d752b"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/beam.git",
+      "observed_utc": "2026-11-25T01:56:59.856312+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40beam.apache.org&q=subject%3A%282.60.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "ozone": {
+    "subset": "development",
+    "project": "ozone",
+    "repository": "apache/ozone",
+    "version": "1.4.0",
+    "final_tag": "ozone-1.4.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01095.html",
+        "date": "2023-12-26",
+        "subject": "[VOTE] Apache Ozone 1.4.0 RC0",
+        "sender": "author-01",
+        "body_sha256": "0cb1af1969a660874e2951dbda8f04853dade20bb82a7669c572904a95051a68"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01096.html",
+        "date": "2023-12-26",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC0",
+        "sender": "author-02",
+        "body_sha256": "059b2cc5bb56d4b31d3f0fbdbf9a0c34724cb5d671d30a6be29f9a11a94f8561"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01097.html",
+        "date": "2023-12-26",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC0",
+        "sender": "author-03",
+        "body_sha256": "f4ef4b8c2de647a7c31715fe2a406a510b9d27d6d3dd04517ec28611fdf31ae3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01099.html",
+        "date": "2024-01-08",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC0",
+        "sender": "author-04",
+        "body_sha256": "65ba7985164963134cb2d99c0d710d3c7ea23f7e6da79722b6fc57ad8fe5c3d3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01100.html",
+        "date": "2024-01-08",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC0",
+        "sender": "author-02",
+        "body_sha256": "075ba90469a026778d84950da3de6e597e1c9b67c8190525e7b5aaa3aa24c065"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01101.html",
+        "date": "2024-01-08",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC0",
+        "sender": "author-01",
+        "body_sha256": "d5b2ded6ab3f65d3a63e1ce2e1d5c7e4715a2b18a76599ca1bff5ef3c485476d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01105.html",
+        "date": "2024-01-10",
+        "subject": "[VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "1b7f2265dcf96935c5a500e413a0fab7c240162edf28c70e54e9ab9519950433"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01106.html",
+        "date": "2024-01-10",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-04",
+        "body_sha256": "fda7ca02dbc4b7c45fbe1c40f3e0db42fde5b0541d6cf463c05b53254b499ad0"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01107.html",
+        "date": "2024-01-14",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "aa2711c1607d71c9093b5f44b9769fbc41e87e6212d488cce3be5008605f8a79"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01108.html",
+        "date": "2024-01-14",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-02",
+        "body_sha256": "ae0c59f591d58f52a4915b46d67cf7673872835d13ed960ca88c77cbfb6a8ab6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01109.html",
+        "date": "2024-01-15",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "3e798d8683e5dcf629b4631ab074087f440e2bdc12e48fdc004f6388a55301f7"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01110.html",
+        "date": "2024-01-16",
+        "subject": "Re:[VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-05",
+        "body_sha256": "7411cf36c74228a2d2ba91c5d23e8316ab4dbad2519b32cbc9e49d755067c8a6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01111.html",
+        "date": "2024-01-16",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-06",
+        "body_sha256": "d5a25371f1e49ca9ed9cb85f1e07e4e5ffdd0909c72bdd1a47fb5c097da1a14d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01112.html",
+        "date": "2024-01-16",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-07",
+        "body_sha256": "889a05d656de2a998ab541cae9678ed16bdbfac7edd09c684232379c51a8a5bc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01113.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-07",
+        "body_sha256": "d5bdf0ff3874366d8fc9f2af13e8ecafac9d6a37d8540ff4c43b67718799fe23"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01114.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "f55e3a44b162a48b129736ad0e4040c712f2b0f6818b3058d6813d43b6854761"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01115.html",
+        "date": "2024-01-17",
+        "subject": "Re:[VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-08",
+        "body_sha256": "fe95a8a04cd0c9e1f49cf0bedee06906147e035dbb7780af433ffdc2111a03c2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01116.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-02",
+        "body_sha256": "4d2e6a31723ba8b8edab33ce79214396004aee1b713e35f1bc6a47d8f2fce708"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01117.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-09",
+        "body_sha256": "cd8b935ebafa7855cc2aabb875f8e438d93d08bdf46d8ec3d08275bc61c1d988"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01118.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-10",
+        "body_sha256": "1020ca623a9d6361e552cf5b35ffa134c2abea02891cdc5de7f54df6bfee0263"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01119.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-11",
+        "body_sha256": "e2c493dc70a6aba96d9cee0175f6d0b233bedad34b708f329ee99a34eaf27f03"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01120.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-12",
+        "body_sha256": "08fac3f8da81b85cd28375b102edcc7f6fade5cc1cc62a58686833a7a8b53c04"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01121.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "841a8f08e670f984ca46765e61b4a0451c58b33d13b7e4cfc3c2e7360ebaf228"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01122.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-13",
+        "body_sha256": "460bbb0f0e6629edb6eefbb031e23752a6a86b2031d34a6f3c1cf8ba548efa4c"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01123.html",
+        "date": "2024-01-17",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "91322ad4bfb05da1b18c18454b4aff3bcb8b13c965e721699efa3771430e1e1e"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01124.html",
+        "date": "2024-01-18",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-07",
+        "body_sha256": "8300a7ec88efb99184fc1e82d0fdc787e77cf9bfd611d945a101a3edef3f1db9"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01125.html",
+        "date": "2024-01-18",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "1798471be7ac9b4e3447b4a688474f86c10bd49ccd17dbfe4a1dfb3f044569c6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01126.html",
+        "date": "2024-01-18",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-14",
+        "body_sha256": "ba034f6bb49eff3fe2d1f1b3b1dede9c4841d8ffe860fd5176cc051632d6ae7e"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01127.html",
+        "date": "2024-01-18",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "beb530a7d2720f176c5c3d3e958eb12d2391a2146a3fee3725c74fc2b0a97911"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01129.html",
+        "date": "2024-01-19",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-14",
+        "body_sha256": "b4d458a40e80cc81c69d11b5e364a6aff72fb0a8613678fdcc0b3058d7fe4736"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01130.html",
+        "date": "2024-01-19",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-04",
+        "body_sha256": "b65610b75abb45535fbc06e4a4e47b069845710213805c6bfdf5d31cc4a81a50"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01131.html",
+        "date": "2024-01-19",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-14",
+        "body_sha256": "c422fcb13a81b61a540f8ea23f298bd84a49371c48b7aa521a8c9555e7763766"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ozone.apache.org/msg01132.html",
+        "date": "2024-01-19",
+        "subject": "Re: [VOTE] Apache Ozone 1.4.0 RC1",
+        "sender": "author-15",
+        "body_sha256": "ef4cdd882d2c078f6d230523221035a6ee225b95f1034805d7191eb5f981a612"
+      }
+    ],
+    "tags": {
+      "ozone-1.4.0": {
+        "commit": "e4b6007c8e9f79d1432cf6f128d6f83e733f8e9b",
+        "url": "https://github.com/apache/ozone/tree/ozone-1.4.0",
+        "ref_object": "d6fe1d6e4e0be7e3cf0bedbb8297a60d2729bcca"
+      },
+      "ozone-1.4.0-RC0": {
+        "commit": "9090d5238703abacd0906dc9c676a73b8b58b4cb",
+        "url": "https://github.com/apache/ozone/tree/ozone-1.4.0-RC0",
+        "ref_object": "ef2f89f38d79c69eefb7a6acd87161170459193e"
+      },
+      "ozone-1.4.0-RC1": {
+        "commit": "e4b6007c8e9f79d1432cf6f128d6f83e733f8e9b",
+        "url": "https://github.com/apache/ozone/tree/ozone-1.4.0-RC1",
+        "ref_object": "5575de3800bddc1939512f08032bc0a4a7b8237f"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/ozone.git",
+      "observed_utc": "2026-11-25T01:57:02.277058+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40ozone.apache.org&q=subject%3A%281.4.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "hbase": {
+    "subset": "development",
+    "project": "hbase",
+    "repository": "apache/hbase",
+    "version": "2.5.8",
+    "final_tag": "rel/2.5.8",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71834.html",
+        "date": "2024-03-01",
+        "subject": "[VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-01",
+        "body_sha256": "aa18bfda8d86954fe44396d47d7b7a2436a01c10f0d261db6997bd2cd19a5ec3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71837.html",
+        "date": "2024-03-02",
+        "subject": "Re: [VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-02",
+        "body_sha256": "670c081835392740fd5182b59f3c4563bf8767e29b49416ca988163f2d6504b6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71845.html",
+        "date": "2024-03-04",
+        "subject": "Re: [VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-03",
+        "body_sha256": "34f983df2f198632b0c3fd5b12748ceb5569cf31d7f88543ec7f7f788c675f35"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71879.html",
+        "date": "2024-03-08",
+        "subject": "Re: [VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-01",
+        "body_sha256": "facd774bddf4791f487c971e78503cf78c36ae3fc52b1bdde6ee9789bbdbbf48"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71886.html",
+        "date": "2024-03-09",
+        "subject": "Re: [VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-04",
+        "body_sha256": "feaaa81234ae18fa00cc4f93a318e65a521df3c892dd258dcb73c647d012c609"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71887.html",
+        "date": "2024-03-09",
+        "subject": "Re: [VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-04",
+        "body_sha256": "c2d5589035e472ad57fec03542dc0a9c71d1e48d8b6e2d0cbebcf12fd31d344c"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71889.html",
+        "date": "2024-03-10",
+        "subject": "Re: [VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-05",
+        "body_sha256": "6fe4f2a0c728b70a160d29db36d7285fae79b45ca4558d5ba291abfb2b8cccaa"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hbase.apache.org/msg71903.html",
+        "date": "2024-03-12",
+        "subject": "[RESULT] [VOTE] The first release candidate for 2.5.8 (RC0) is available",
+        "sender": "author-01",
+        "body_sha256": "a16d2f36738ca314b157d4ae7dbf7229b883da0092d68922fdb8777231d04794"
+      }
+    ],
+    "tags": {
+      "2.5.8RC0": {
+        "commit": "37444de6531b1bdabf2e445c83d0268ab1a6f919",
+        "url": "https://github.com/apache/hbase/tree/2.5.8RC0",
+        "ref_object": "5086248d41faf270e7d886ec2c31df23e3a0ea8d"
+      },
+      "rel/2.5.8": {
+        "commit": "37444de6531b1bdabf2e445c83d0268ab1a6f919",
+        "url": "https://github.com/apache/hbase/tree/rel/2.5.8",
+        "ref_object": "48e8b1f801d97936ccfc31a58832c383d03ba69b"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/hbase.git",
+      "observed_utc": "2026-11-25T02:42:54.567028+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40hbase.apache.org&q=subject%3A%282.5.8%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "ratis": {
+    "subset": "development",
+    "project": "ratis",
+    "repository": "apache/ratis",
+    "version": "3.1.0",
+    "final_tag": "ratis-3.1.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02907.html",
+        "date": "2024-05-30",
+        "subject": "[VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-01",
+        "body_sha256": "7a59ea1b265ddc79a34ef6904c0995eccbf4b067445e19ed2e5fd4a9e67a1b82"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02908.html",
+        "date": "2024-05-30",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-02",
+        "body_sha256": "c381d3ca0c6c8ba176228e010e4f1658bdbe4deaf17895c7d15284976a4a25d3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02909.html",
+        "date": "2024-05-31",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-03",
+        "body_sha256": "ac66264398b36c6f261291b7399eda375f0502308fe06b65d405951098827bd6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02910.html",
+        "date": "2024-06-01",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "c94ad15c95c2f42f2cdea47786709b87cd92b3c44ddb19f4cea03b8c77c69fe3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02911.html",
+        "date": "2024-06-02",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "f1b22c36bce27375b8e29956b86720964d6fbfa219ec59bd56ced61289de9fa7"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02912.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-01",
+        "body_sha256": "1034c7d9c980a40ccdefa85bc35106e889250bd01590ffc7c5a7d31c604cf748"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02913.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "ee203ea9f02b5b4545cff3e3f5c5b2ecae0da0ab25c142fef608cd84f42f9327"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02914.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-03",
+        "body_sha256": "8bcb9404d0c9189ae7eeb114b80dbbf1658dfa3037209356d6a55ef2af467bfb"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02915.html",
+        "date": "2024-06-04",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "f057807271b18b1d1721a81b1128cfe34220a2319a28fb59e843f858628abeec"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02916.html",
+        "date": "2024-06-04",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "6dfc4d8aa155018f85c669e48e45198aa5bd178a30d8938bfb274680205e2399"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02917.html",
+        "date": "2024-06-06",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "2c05330cfa765668ed7920920225142b54910b5fcdce52bff7eade0a4cf9b09f"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02918.html",
+        "date": "2024-06-06",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-01",
+        "body_sha256": "e8a5219ff307de2b631aca5e0015fdc5d5f1f52a1fb7927903826a80fbdc8a50"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02919.html",
+        "date": "2024-06-08",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "9158acf4b1d50a9cc85a3a5731b8f26e8ef7957b30310a77d36e1da35d965ce2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02920.html",
+        "date": "2024-06-11",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-01",
+        "body_sha256": "87bc3dfcb6473400a8c711d30b7fd97970fdc1cc1f3f7b6fa22bb608e5e51b16"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02921.html",
+        "date": "2024-06-11",
+        "subject": "[VOTE] Apache Ratis Release 3.1.0 rc1",
+        "sender": "author-01",
+        "body_sha256": "c8856021e02005d39e5746ca66258d73c994ddc61111cbfe2978ae809899bdee"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02922.html",
+        "date": "2024-06-14",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc1",
+        "sender": "author-04",
+        "body_sha256": "e687e974c93575ce9cd1de982c2022577c9384f799364dd5bfd20e86ead8c9a0"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02923.html",
+        "date": "2024-06-16",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc1",
+        "sender": "author-04",
+        "body_sha256": "3f0ee9a35d019d175d122acf9bed66315cc629185207232d385a2988e939ad0c"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02924.html",
+        "date": "2024-06-16",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc0",
+        "sender": "author-04",
+        "body_sha256": "10145f28c1c6ee7e82de654fbdccccacd39dd9e4114459c0fbc0ce4aa3f67c0c"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02925.html",
+        "date": "2024-06-19",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc1",
+        "sender": "author-01",
+        "body_sha256": "b848d0a7bb924568ef0831fb5dedbc167c0ef0b240d30efa91f651440877c5ad"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02926.html",
+        "date": "2024-06-19",
+        "subject": "[VOTE] Apache Ratis Release 3.1.0 rc2",
+        "sender": "author-01",
+        "body_sha256": "bcb67f7f41c01d12a6ad6727c42756ecb033a4a4e1104e18174e0d6488d1b337"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02927.html",
+        "date": "2024-06-20",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc2",
+        "sender": "author-04",
+        "body_sha256": "a6c780a77cbc9b96ab86a0eef3857262039ea32fbe4c2d47060686fb7bb6ce15"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02928.html",
+        "date": "2024-06-21",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc2",
+        "sender": "author-02",
+        "body_sha256": "cb5a1b8f08359cfc19592bcae147d64e3ff722cc9fb0e023158247a9f1dce5bb"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02929.html",
+        "date": "2024-06-24",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc2",
+        "sender": "author-05",
+        "body_sha256": "9913fc0f079e6c50b8a3050ea6bd2e4cf8fd93b8fa2914fac37722add84d2cdf"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@ratis.apache.org/msg02930.html",
+        "date": "2024-06-25",
+        "subject": "Re: [VOTE] Apache Ratis Release 3.1.0 rc2",
+        "sender": "author-01",
+        "body_sha256": "0221f32a51bcedeb363145e6bfcf608a5e0570110c49598787609c704f2fb925"
+      }
+    ],
+    "tags": {
+      "ratis-3.1.0": {
+        "commit": "89062974c9acb0f5e5383852e5302836b2387543",
+        "url": "https://github.com/apache/ratis/tree/ratis-3.1.0",
+        "ref_object": "c65dd6fb4db9f2a7480e6f2f9ea4c18b51406ca8"
+      },
+      "ratis-3.1.0-rc0": {
+        "commit": "bfd029cf45bf8229ef12d1d84e3692115231fb1b",
+        "url": "https://github.com/apache/ratis/tree/ratis-3.1.0-rc0",
+        "ref_object": "24fc349a5b0f8f0e1adc5baf510a8c8f509e0a3f"
+      },
+      "ratis-3.1.0-rc1": {
+        "commit": "9ed4e3eca792d96aafa4f43ba5dfe1b9650a522c",
+        "url": "https://github.com/apache/ratis/tree/ratis-3.1.0-rc1",
+        "ref_object": "a1b718cbd3fd89fc1654229bd5148da2abf4b85b"
+      },
+      "ratis-3.1.0-rc2": {
+        "commit": "89062974c9acb0f5e5383852e5302836b2387543",
+        "url": "https://github.com/apache/ratis/tree/ratis-3.1.0-rc2",
+        "ref_object": "ada992a62f4076656ca45edd1e06e8dbd6297543"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/ratis.git",
+      "observed_utc": "2026-11-25T02:42:56.486721+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40ratis.apache.org&q=subject%3A%283.1.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "kudu": {
+    "subset": "development",
+    "project": "kudu",
+    "repository": "apache/kudu",
+    "version": "1.17.0",
+    "final_tag": "1.17.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01577.html",
+        "date": "2023-08-02",
+        "subject": "[VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "358a4854f96a9f4c5db91522a8767aac7b453b3d8fca201c3a987bd9049290d4"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01578.html",
+        "date": "2023-08-03",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-02",
+        "body_sha256": "f6112ed85bbb320a66b450ed432958999bc7e541020e527be23581c015fb578e"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01579.html",
+        "date": "2023-08-04",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-03",
+        "body_sha256": "70eda1739198268a904853b8b05383986e512c1277935ec4f4d56be2b7c247b2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01580.html",
+        "date": "2023-08-05",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-04",
+        "body_sha256": "8049fcd85ee53c4e41de364179917c9ea538e80e1098512570601f4b2ed7bbd5"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01581.html",
+        "date": "2023-08-07",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-05",
+        "body_sha256": "dee8318c34ac547a07cad6bb2dcabbe12b82d80a9aed14d12e21ef7dc70a01eb"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01582.html",
+        "date": "2023-08-07",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "eae227362aaa8bc027e99fae906680b0c1b6b2e81c72a2eb6ba337ae8830aab8"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01583.html",
+        "date": "2023-08-07",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-06",
+        "body_sha256": "bbb78aca8eeb41c752bd23e665b9ae74ef3112d48a3afad2701c1e1d0032688f"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01584.html",
+        "date": "2023-08-09",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-07",
+        "body_sha256": "43e4b290cfc8e351576b48fbdac58024e5ba3e3c9530f8d236a06a436a7f7bdf"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01585.html",
+        "date": "2023-08-10",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "cb85376eda5252fad1c0d37c8535d2599819802bf5e54f77239a3e6f7f700e64"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01591.html",
+        "date": "2023-08-23",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "d8589e8a66f4476d7f5a389e00f960836fd4c870a9831bfccd4358f240791e35"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01592.html",
+        "date": "2023-08-27",
+        "subject": "[VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "7ca29937da2fc54c1c131a9bb274d3df37aa9e3dd2a4df5a02065b0bc0933d0a"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01593.html",
+        "date": "2023-08-29",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-08",
+        "body_sha256": "0c19250785413234969d5e10947cbead7d216e1d0ce084896044a4087da123e4"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01594.html",
+        "date": "2023-08-29",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-08",
+        "body_sha256": "a09f34becb0cc0a4c8f10aa42168121b39e38d7eada5b1acd29266a198598aff"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01595.html",
+        "date": "2023-08-29",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-02",
+        "body_sha256": "004bf322151210b3748bf5719c9566e32c166b26acfc38cfb7a7c3fc29b133a0"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01596.html",
+        "date": "2023-08-29",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-09",
+        "body_sha256": "798f6274f54991425c334539a88acb6f2c8457c0363875230ed82860fd6beffa"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01597.html",
+        "date": "2023-08-29",
+        "subject": "Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-06",
+        "body_sha256": "5f95f68b21ec743c700da3bb5356767ff65230fb3128859be364e359dca76d6a"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01598.html",
+        "date": "2023-08-30",
+        "subject": "Re:Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-05",
+        "body_sha256": "9d9789961887f1c1daae285cea9d86417e06fa7d090375949c0481ae0d083839"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01599.html",
+        "date": "2023-08-30",
+        "subject": "Re: Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-07",
+        "body_sha256": "631a20e6c6ac9a2f5b1901611ce51fda8a58d8ae24945f87663e44aef110307b"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01600.html",
+        "date": "2023-09-01",
+        "subject": "Re: Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "44c91bf54df56462539684f4e03105cfce6d8eaf64939a597dab98af2f6169c8"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01601.html",
+        "date": "2023-09-01",
+        "subject": "[RESULT] [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "b2d94007f6fb1e955f97145c56db5fa2316c5f4c62ea05cc0b2be8cc3d8a1efc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@kudu.apache.org/msg01602.html",
+        "date": "2023-09-01",
+        "subject": "Re: Re: [VOTE] Apache Kudu 1.17.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "7227f617d48a88d709666c0c3809914aef175139de4950c20675b8fb91b1c0ca"
+      }
+    ],
+    "tags": {
+      "1.17.0": {
+        "commit": "4a7700bdcff2bf2afe4e46efdb8874484fd66b86",
+        "url": "https://github.com/apache/kudu/tree/1.17.0",
+        "ref_object": "1b5fc1e8e18c2a6a6621c4995b01dae51b9e8b9f"
+      },
+      "1.17.0-RC1": {
+        "commit": "34243b3d0777597862aa6d3b51fd401f72d8bbf2",
+        "url": "https://github.com/apache/kudu/tree/1.17.0-RC1",
+        "ref_object": "34243b3d0777597862aa6d3b51fd401f72d8bbf2"
+      },
+      "1.17.0-RC2": {
+        "commit": "4a7700bdcff2bf2afe4e46efdb8874484fd66b86",
+        "url": "https://github.com/apache/kudu/tree/1.17.0-RC2",
+        "ref_object": "4a7700bdcff2bf2afe4e46efdb8874484fd66b86"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/kudu.git",
+      "observed_utc": "2026-11-25T02:42:55.968588+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40kudu.apache.org&q=subject%3A%281.17.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "pinot": {
+    "subset": "development",
+    "project": "pinot",
+    "repository": "apache/pinot",
+    "version": "1.2.0",
+    "final_tag": "release-1.2.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03234.html",
+        "date": "2024-07-31",
+        "subject": "[VOTE] Apache Pinot 1.2.0 RC0",
+        "sender": "author-01",
+        "body_sha256": "5d79e7b5151be41849b9b79c30e11d4947c75c3c4fae4831a4354439dc23945d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03235.html",
+        "date": "2024-07-31",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC0",
+        "sender": "author-02",
+        "body_sha256": "0a9d8ac1fffad4dc832510d22274b391b4dadf3aa9241bf20173cb05d502dcd7"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03236.html",
+        "date": "2024-08-01",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC0",
+        "sender": "author-03",
+        "body_sha256": "8e6dbe8a46f43c24070c15ca9a6f2baee9bd68287694b3154eafd3f0915ba09b"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03237.html",
+        "date": "2024-08-02",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC0",
+        "sender": "author-04",
+        "body_sha256": "960b6dfb0bafc45434a867f4f00fa7015ae1572ccbe93577610ec4b89440a324"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03238.html",
+        "date": "2024-08-02",
+        "subject": "RE: [VOTE] Apache Pinot 1.2.0 RC0",
+        "sender": "author-05",
+        "body_sha256": "3f8d772486c27e75b7d9ab27cddc49173d899cd627f482a6070b79967bc3b159"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03239.html",
+        "date": "2024-08-02",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC0",
+        "sender": "author-06",
+        "body_sha256": "ec9900ab9d43bead9829241d8a1800af9340a82d0d0834ac81111f432bef8345"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03240.html",
+        "date": "2024-08-08",
+        "subject": "[VOTE] Apache Pinot 1.2.0 RC1",
+        "sender": "author-01",
+        "body_sha256": "f08370cf510c723bc7183932c39a3439af5ab4d75dbbbaa51e5ca9b2f2054a70"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03241.html",
+        "date": "2024-08-09",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC1",
+        "sender": "author-07",
+        "body_sha256": "f00024c63baa57b7464679f1d20976665c95f923808914557d32687c041032fc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03242.html",
+        "date": "2024-08-10",
+        "subject": "[VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-01",
+        "body_sha256": "024c12fd8aaa18d7a785131e7da9681144466746570e56133fc17bf27da9b7fc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03243.html",
+        "date": "2024-08-12",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-02",
+        "body_sha256": "cce3905a9ac58202165932dcc2b086fd7d3121f3a39e3669c57115a76ad08de8"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03244.html",
+        "date": "2024-08-16",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-08",
+        "body_sha256": "3b39278a8d050b52b4601ab43ede5ad7b6e1669f9602e7a8e48b9203482c93f7"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03245.html",
+        "date": "2024-08-19",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-07",
+        "body_sha256": "7ae4f77c0e7a4a8be26973190461693921d7ddaeabd634cc274df0e2dd37d2c3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03246.html",
+        "date": "2024-08-19",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-09",
+        "body_sha256": "4becb05ade02882991424dd125235b51e81c8d52e0fa37e2c461be1c92471c3f"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03247.html",
+        "date": "2024-08-19",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-06",
+        "body_sha256": "2e91321832610165829c55121cee2ab59b6ed48a0f250bfc25c51138b92e6aa4"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03248.html",
+        "date": "2024-08-19",
+        "subject": "Re: [VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-04",
+        "body_sha256": "e57ea4e71400bb44e594fc42ce8b0faeb941a71b9aef723b77e4efb6873d7993"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@pinot.apache.org/msg03249.html",
+        "date": "2024-08-19",
+        "subject": "[RESULT][VOTE] Apache Pinot 1.2.0 RC2",
+        "sender": "author-01",
+        "body_sha256": "4a90010f23336a933a81a1cdce4eb4dbf0485511013d18bc92adf0b989f61f4c"
+      }
+    ],
+    "tags": {
+      "release-1.2.0": {
+        "commit": "cc33ac502a02e2fe830fe21e556234ee99351a7a",
+        "url": "https://github.com/apache/pinot/tree/release-1.2.0",
+        "ref_object": "3790fcae9c76ade843b03462af98594e9b503fd0"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/pinot.git",
+      "observed_utc": "2026-11-25T02:42:54.488352+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40pinot.apache.org&q=subject%3A%281.2.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "avro": {
+    "subset": "panel1",
+    "project": "avro",
+    "repository": "apache/avro",
+    "version": "1.11.3",
+    "final_tag": "release-1.11.3",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36808.html",
+        "date": "2023-09-17",
+        "subject": "[VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-01",
+        "body_sha256": "8bf48a3cf3801b0d26e4a3892feb79e3cd8f1d0a392f24170974c78c3d4d5d64"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36814.html",
+        "date": "2023-09-18",
+        "subject": "Re: [VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-02",
+        "body_sha256": "74068ee774e0f60094515ec1152b403f9d26d3bfc3dd53b3ec3623eede701462"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36818.html",
+        "date": "2023-09-18",
+        "subject": "Re: [VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-03",
+        "body_sha256": "4b8f59fe0593fa3867d5d4bf3e7730e9c4946c5e3942664a8a2a036e9c696bf8"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36821.html",
+        "date": "2023-09-18",
+        "subject": "Re: [VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-04",
+        "body_sha256": "ceb0067afda62426b3720250c798869c7cfd711d7633e35f32e5a1ca988acdf9"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36829.html",
+        "date": "2023-09-19",
+        "subject": "Re: [VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-05",
+        "body_sha256": "c81a1ee4f73eedb3891b8ebf8ea5a4527ab8b6dc393587e80816b6e88f9d5c55"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36830.html",
+        "date": "2023-09-19",
+        "subject": "Re: [VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-06",
+        "body_sha256": "c0a71361c17fe3b55bff3aaf2f2155143842317e0657a8b8cab4deb983a223db"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36833.html",
+        "date": "2023-09-19",
+        "subject": "Re: [VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-07",
+        "body_sha256": "c0cbfc0df0a35049b23167b9954836df73d5b554e673158bf8c06f1f1d8d4eec"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36855.html",
+        "date": "2023-09-20",
+        "subject": "Re: [VOTE] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-08",
+        "body_sha256": "1782d30185a977bafcad949faaf850aaf05aaa33b94bf7da442f51c5adc0ddb5"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@avro.apache.org/msg36875.html",
+        "date": "2023-09-22",
+        "subject": "[VOTE][RESULT] Release Apache Avro 1.11.3 RC1",
+        "sender": "author-01",
+        "body_sha256": "164bbdd65187ac7c6b880f44d723069df3711ca6d73f3ef642caf87456aab700"
+      }
+    ],
+    "tags": {
+      "release-1.11.3": {
+        "commit": "35ff8b997738e4d983871902d47bfb67b3250734",
+        "url": "https://github.com/apache/avro/tree/release-1.11.3",
+        "ref_object": "c21a60943e5d1f9375d295809876b7b6dd4d58ae"
+      },
+      "release-1.11.3-rc1": {
+        "commit": "35ff8b997738e4d983871902d47bfb67b3250734",
+        "url": "https://github.com/apache/avro/tree/release-1.11.3-rc1",
+        "ref_object": "1a848eb6a78bc5ccb41a866e071e2ea4e3783c66"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/avro.git",
+      "observed_utc": "2026-11-25T03:34:06.301942+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40avro.apache.org&q=subject%3A%281.11.3%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "druid": {
+    "subset": "panel1",
+    "project": "druid",
+    "repository": "apache/druid",
+    "version": "30.0.0",
+    "final_tag": "druid-30.0.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03967.html",
+        "date": "2024-05-28",
+        "subject": "[VOTE] Release Apache Druid 30.0.0 [RC1]",
+        "sender": "author-01",
+        "body_sha256": "a56b935a2b9fc26d88737168c79b64c1e671f9c2ca3f369b6545cba9556c8c00"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03968.html",
+        "date": "2024-06-02",
+        "subject": "Re: [VOTE] Release Apache Druid 30.0.0 [RC1]",
+        "sender": "author-02",
+        "body_sha256": "5d7030dbd441a479d3714e16bf774b40483fb6c9c1ac5670cc7ea38bd6f5deb3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03969.html",
+        "date": "2024-06-02",
+        "subject": "[CANCEL][VOTE] Release Apache Druid 30.0.0 [RC1]",
+        "sender": "author-01",
+        "body_sha256": "4ff241486ed0487e52a784bd87e5d072a09ee05cc35a2adbb818f4273d314b56"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03970.html",
+        "date": "2024-06-04",
+        "subject": "[VOTE] Release Apache Druid 30.0.0 [RC2]",
+        "sender": "author-01",
+        "body_sha256": "9ac4acd7a82966d3bcfe12a22f00075fd753e918ef6ee564ba6348683698facc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03971.html",
+        "date": "2024-06-06",
+        "subject": "[CANCEL][VOTE] Release Apache Druid 30.0.0 [RC2]",
+        "sender": "author-01",
+        "body_sha256": "f26d129fad3547100949c496bc8bad26e5913c0058fd709327fa2828180cfc31"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03972.html",
+        "date": "2024-06-08",
+        "subject": "[VOTE] Release Apache Druid 30.0.0 [RC3]",
+        "sender": "author-01",
+        "body_sha256": "a6edf47606bf4bfea80bef4daa55fb8903faeddc4f33cf3363f019a129c9703e"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03974.html",
+        "date": "2024-06-11",
+        "subject": "Re: [VOTE] Release Apache Druid 30.0.0 [RC3]",
+        "sender": "author-03",
+        "body_sha256": "de453210851de1b4b0a1af83eebffd27af45ddbf6c171d1a005a8072b9139bb2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03975.html",
+        "date": "2024-06-12",
+        "subject": "Re: [VOTE] Release Apache Druid 30.0.0 [RC3]",
+        "sender": "author-04",
+        "body_sha256": "0e959b1c7e18b3b881fa0ac0c6d3a2463935df67c8793db07c0e3f4a346bd0e5"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03976.html",
+        "date": "2024-06-13",
+        "subject": "Re: [VOTE] Release Apache Druid 30.0.0 [RC3]",
+        "sender": "author-02",
+        "body_sha256": "44f550a4734921838ea7b5fa10e2cd32431cb90caa866b386f433266eadfab3d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@druid.apache.org/msg03977.html",
+        "date": "2024-06-13",
+        "subject": "[RESULT][VOTE] Release Apache Druid 30.0.0 [RC3]",
+        "sender": "author-01",
+        "body_sha256": "a896876d8340402743347be3606d8f5c8912b7c3c934423706ba4cd5f185186b"
+      }
+    ],
+    "tags": {
+      "druid-30.0.0": {
+        "commit": "09d36ee324747f1407705c27618b6d415c3fa8a9",
+        "url": "https://github.com/apache/druid/tree/druid-30.0.0",
+        "ref_object": "09d36ee324747f1407705c27618b6d415c3fa8a9"
+      },
+      "druid-30.0.0-rc1": {
+        "commit": "2a3a0052067d217ff0a7d3358f1ced33a24e935a",
+        "url": "https://github.com/apache/druid/tree/druid-30.0.0-rc1",
+        "ref_object": "6934928916ede8b476a14dc5fa7bac8d688c2520"
+      },
+      "druid-30.0.0-rc2": {
+        "commit": "5482a524ad8f25d87bf977c9e76651373b8b6586",
+        "url": "https://github.com/apache/druid/tree/druid-30.0.0-rc2",
+        "ref_object": "ff25c1c902c798fd524695cfbd765c231f7de34f"
+      },
+      "druid-30.0.0-rc3": {
+        "commit": "09d36ee324747f1407705c27618b6d415c3fa8a9",
+        "url": "https://github.com/apache/druid/tree/druid-30.0.0-rc3",
+        "ref_object": "0f34212e89540251489a0fc16b6d8b5ecc8f0e57"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/druid.git",
+      "observed_utc": "2026-11-25T03:34:07.331611+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40druid.apache.org&q=subject%3A%2830.0.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "bookkeeper": {
+    "subset": "panel1",
+    "project": "bookkeeper",
+    "repository": "apache/bookkeeper",
+    "version": "4.17.1",
+    "final_tag": "release-4.17.1",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@bookkeeper.apache.org/msg11137.html",
+        "date": "2024-06-14",
+        "subject": "[VOTE] Release 4.17.1, release candidate #0",
+        "sender": "author-01",
+        "body_sha256": "853d51022c10ff270d5f5e80888e4aa3e69525d9073e066127fdf1250a368bc5"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@bookkeeper.apache.org/msg11142.html",
+        "date": "2024-06-21",
+        "subject": "Re: [VOTE] Release 4.17.1, release candidate #0",
+        "sender": "author-02",
+        "body_sha256": "ff55ad3e95104a70fcb7334cab97e1896a9ef45998f4dbfc768d01f635773700"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@bookkeeper.apache.org/msg11144.html",
+        "date": "2024-06-21",
+        "subject": "Re: [VOTE] Release 4.17.1, release candidate #0",
+        "sender": "author-03",
+        "body_sha256": "e1418b83d3b01f81552c70f73a793f72f53252b2124af9cd3e8a3987b631b088"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@bookkeeper.apache.org/msg11146.html",
+        "date": "2024-06-22",
+        "subject": "Re: [VOTE] Release 4.17.1, release candidate #0",
+        "sender": "author-01",
+        "body_sha256": "683f048be5f9448d4e9f510ba664802fc430999fda70ca5d15221d595cb521d3"
+      }
+    ],
+    "tags": {
+      "release-4.17.1": {
+        "commit": "f233320077991b4b50218598858f6d31a1914884",
+        "url": "https://github.com/apache/bookkeeper/tree/release-4.17.1",
+        "ref_object": "1e88110d78c4a26f9c5749c78c90bab3e4e0a0ae"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/bookkeeper.git",
+      "observed_utc": "2026-11-25T03:34:44.412913+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40bookkeeper.apache.org&q=subject%3A%284.17.1%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "zookeeper": {
+    "subset": "panel1",
+    "project": "zookeeper",
+    "repository": "apache/zookeeper",
+    "version": "3.9.2",
+    "final_tag": "release-3.9.2",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@zookeeper.apache.org/msg76173.html",
+        "date": "2024-02-12",
+        "subject": "[VOTE] Apache ZooKeeper release 3.9.2 candidate 0",
+        "sender": "author-01",
+        "body_sha256": "745c7472f1bdc0b9d996ac663d04ce6965dbd0394506a09d3ad9bf72eb3a2ac2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@zookeeper.apache.org/msg76176.html",
+        "date": "2024-02-16",
+        "subject": "Re: [VOTE] Apache ZooKeeper release 3.9.2 candidate 0",
+        "sender": "author-02",
+        "body_sha256": "95ad6924981a64336a37385bbdba0ea15fadb45ee0faddbdaea7636894e18d4f"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@zookeeper.apache.org/msg76192.html",
+        "date": "2024-02-28",
+        "subject": "Re: [VOTE] Apache ZooKeeper release 3.9.2 candidate 0",
+        "sender": "author-03",
+        "body_sha256": "66d84557c4b8cdadae0100a5db19e53349cd42b33160cb60dea0b77f1a34a2be"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@zookeeper.apache.org/msg76205.html",
+        "date": "2024-03-08",
+        "subject": "Re: [VOTE] Apache ZooKeeper release 3.9.2 candidate 0",
+        "sender": "author-04",
+        "body_sha256": "50ddfd09bf1df7d44a975718dc4bfc9e62b0c402212362491872e3ef34e0f529"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@zookeeper.apache.org/msg76207.html",
+        "date": "2024-03-11",
+        "subject": "[RESULT] [VOTE] Apache ZooKeeper release 3.9.2 candidate 0",
+        "sender": "author-01",
+        "body_sha256": "de97526fd223034b0f7f67cbc4c716ef6ae9e9742a450b195b55ea6a31a161be"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@zookeeper.apache.org/msg76208.html",
+        "date": "2024-03-11",
+        "subject": "Re: [RESULT] [VOTE] Apache ZooKeeper release 3.9.2 candidate 0",
+        "sender": "author-05",
+        "body_sha256": "d8cc36a63ab731acae66abf3071e7e06e61afaca45c378e4678d2ebbda659a05"
+      }
+    ],
+    "tags": {
+      "release-3.9.2": {
+        "commit": "e454e8c7283100c7caec6dcae2bc82aaecb63023",
+        "url": "https://github.com/apache/zookeeper/tree/release-3.9.2",
+        "ref_object": "5b4215cd1c9fb2236916161803305f49c08ea0ac"
+      },
+      "release-3.9.2-0": {
+        "commit": "e454e8c7283100c7caec6dcae2bc82aaecb63023",
+        "url": "https://github.com/apache/zookeeper/tree/release-3.9.2-0",
+        "ref_object": "664330f702a5f7cdb626c1cdd06b5097a2de8600"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/zookeeper.git",
+      "observed_utc": "2026-11-25T03:34:09.314518+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40zookeeper.apache.org&q=subject%3A%283.9.2%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "maven": {
+    "subset": "panel1",
+    "project": "maven",
+    "repository": "apache/maven",
+    "version": "3.9.6",
+    "final_tag": "maven-3.9.6",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@maven.apache.org/msg131419.html",
+        "date": "2023-11-28",
+        "subject": "[VOTE] Release Apache Maven 3.9.6",
+        "sender": "author-01",
+        "body_sha256": "b49b6380cbed994f40868359afac095e3fdab918972f45d43449a94c703a24df"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@maven.apache.org/msg131421.html",
+        "date": "2023-11-28",
+        "subject": "Re: [VOTE] Release Apache Maven 3.9.6",
+        "sender": "author-02",
+        "body_sha256": "667057b01d0e0d1ef9a32cead2ae1a1fcf01e81436a0213c0c4f8e8e9a6b13c7"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@maven.apache.org/msg131431.html",
+        "date": "2023-11-28",
+        "subject": "Re: [VOTE] Release Apache Maven 3.9.6",
+        "sender": "author-03",
+        "body_sha256": "1f5d298bc55fd186ef03ddb3c6c441d102d6c69dbc0140115bc4f9a7554fa9df"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@maven.apache.org/msg131433.html",
+        "date": "2023-11-28",
+        "subject": "Re: [VOTE] Release Apache Maven 3.9.6",
+        "sender": "author-04",
+        "body_sha256": "29dbf2b05d1fd0743439c63052f021b25ce7e51c19f503f50c1ebbd09081e3b2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@maven.apache.org/msg131437.html",
+        "date": "2023-11-29",
+        "subject": "Re: [VOTE] Release Apache Maven 3.9.6",
+        "sender": "author-05",
+        "body_sha256": "6b3359344f312cdcbf32ee896a32833c92d3a7883a99dd53d28476946d1638f3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@maven.apache.org/msg131450.html",
+        "date": "2023-11-30",
+        "subject": "Re: [VOTE] Release Apache Maven 3.9.6",
+        "sender": "author-06",
+        "body_sha256": "6403fe9b6ef78b02fb6aa814e0f6f2c47074b547e9120f8da541451cf232fe1b"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@maven.apache.org/msg131452.html",
+        "date": "2023-12-01",
+        "subject": "[RESULT][VOTE] Release Apache Maven 3.9.6",
+        "sender": "author-01",
+        "body_sha256": "6c969c602e2523eb13d41ae320696fd0ce5fa641c800a28909fd7524c3ddf506"
+      }
+    ],
+    "tags": {
+      "maven-3.9.6": {
+        "commit": "bc0240f3c744dd6b6ec2920b3cd08dcc295161ae",
+        "url": "https://github.com/apache/maven/tree/maven-3.9.6",
+        "ref_object": "0a6f7cf3614a47f293f8854e82270351958e6d18"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/maven.git",
+      "observed_utc": "2026-11-25T03:34:10.089349+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40maven.apache.org&q=subject%3A%283.9.6%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "hudi": {
+    "subset": "panel2",
+    "project": "hudi",
+    "repository": "apache/hudi",
+    "version": "0.15.0",
+    "final_tag": "release-0.15.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05412.html",
+        "date": "2024-05-16",
+        "subject": "[VOTE] Release 0.15.0, release candidate #1",
+        "sender": "author-01",
+        "body_sha256": "76481b32744848e4035160c068ae072a3c556be16f20b3d5651ee2f030ace70a"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05414.html",
+        "date": "2024-05-21",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #1",
+        "sender": "author-02",
+        "body_sha256": "0cd168dcb3a60b13763dc70fd32d21f203867f4809b43ec041f975951156c49d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05415.html",
+        "date": "2024-05-22",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #1",
+        "sender": "author-01",
+        "body_sha256": "81327aaf7d79f362d29f7ffdd8b55ef8d9281e330141df77bc8e21718cac29e9"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05416.html",
+        "date": "2024-05-27",
+        "subject": "[VOTE] Release 0.15.0, release candidate #2",
+        "sender": "author-01",
+        "body_sha256": "f4e0b490f49cdb79a214f0d06fdde168b6320ac567095f4fa7d3814fa5913e7d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05417.html",
+        "date": "2024-05-29",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #2",
+        "sender": "author-01",
+        "body_sha256": "f553de6dd17249626814a13b8240be5c1040da15efbcc408bff7e322f7ada48b"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05418.html",
+        "date": "2024-05-30",
+        "subject": "[VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-01",
+        "body_sha256": "5ca00b77ef7e76129095ce2217312b093596523247e01b1bf0e405360a99f605"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05419.html",
+        "date": "2024-05-30",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-03",
+        "body_sha256": "83a3b2064cf5d2cf11059169b4cda11930811db87c716d07ef97f344dae472dd"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05421.html",
+        "date": "2024-06-02",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-02",
+        "body_sha256": "2f0dc7e5c84dfdcf8582372b548b102216b34db9b9a8fd66c39d7ce84c20d72f"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05422.html",
+        "date": "2024-06-02",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-04",
+        "body_sha256": "f9e39a28083653879b403f9d135fb17b6077aad405870d30fb76044c7e3ffbec"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05423.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-05",
+        "body_sha256": "1b0cb11fed8ae6dbcfbf2b91411a29f9e98cc8d9d060920017432e8e66196101"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05424.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-06",
+        "body_sha256": "f368df45342b2251ddaaf521b65bae71804fafb2c8a82386e90169c08f5c7ef9"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05425.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-07",
+        "body_sha256": "6ad8ca414f52cc02333029dc77932cd32efeff532381ffa7204c551efb713f63"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05426.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-08",
+        "body_sha256": "6551b3292b2ee591b9978bfcba400745fdd3714269d7c8e17db38f788e7b3fac"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05427.html",
+        "date": "2024-06-03",
+        "subject": "Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-09",
+        "body_sha256": "e4c58a20c95fcc1e7a20653ff54bc8c7c6494a23f40faae4c02845b4fc42f7b2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05428.html",
+        "date": "2024-06-03",
+        "subject": "Re:Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-10",
+        "body_sha256": "2fedeaa8780a2b5cf6b57c16150e956bac3867217ad3330a998bbb5600f6f99b"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05429.html",
+        "date": "2024-06-03",
+        "subject": "Re: Re: [VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-01",
+        "body_sha256": "45b7053f6c7648b4b0f3e6d8c2b223f3fe5f0cb91a03ac63be9dd7f20cdde7a6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@hudi.apache.org/msg05430.html",
+        "date": "2024-06-03",
+        "subject": "[RESULT][VOTE] Release 0.15.0, release candidate #3",
+        "sender": "author-01",
+        "body_sha256": "620fb8853d73aad1700a023147643fc314530a32df4d0d4d60939b4f97840ab0"
+      }
+    ],
+    "tags": {
+      "release-0.15.0": {
+        "commit": "38832854be37cb78ad1edd87f515f01ca5ea6a8a",
+        "url": "https://github.com/apache/hudi/tree/release-0.15.0",
+        "ref_object": "3b2205a3e4942bd23cd7dc6e1b96166b8ce78ed5"
+      },
+      "release-0.15.0-rc1": {
+        "commit": "16ba7f238873865c1e82662dd54a288dca6ac0a2",
+        "url": "https://github.com/apache/hudi/tree/release-0.15.0-rc1",
+        "ref_object": "99793262a4c582a9e6daad8de9b5f1f1d3789586"
+      },
+      "release-0.15.0-rc2": {
+        "commit": "f80c4163b19d67a4278dacd9fe84f70b4e0ab2ad",
+        "url": "https://github.com/apache/hudi/tree/release-0.15.0-rc2",
+        "ref_object": "c908cd957f80227ab012da9a68c37957e0bdb0b0"
+      },
+      "release-0.15.0-rc3": {
+        "commit": "d0df1d4a94d13cfc061faaf1a9573c886811c104",
+        "url": "https://github.com/apache/hudi/tree/release-0.15.0-rc3",
+        "ref_object": "987b4dd1741d3354a1c68a0e14d90aff949259f2"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/hudi.git",
+      "observed_utc": "2026-11-25T03:41:02.387516+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40hudi.apache.org&q=subject%3A%280.15.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "rocketmq": {
+    "subset": "panel2",
+    "project": "rocketmq",
+    "repository": "apache/rocketmq",
+    "version": "5.3.0",
+    "final_tag": "rocketmq-all-5.3.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@rocketmq.apache.org/msg48313.html",
+        "date": "2024-07-10",
+        "subject": "[VOTE]: Release Apache RocketMQ 5.3.0",
+        "sender": "author-01",
+        "body_sha256": "7b46d0715ded3f8b2efe3d5c20e2857e208281c4ea0ada90dc41f8df0d7e4a34"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@rocketmq.apache.org/msg48315.html",
+        "date": "2024-07-12",
+        "subject": "Re:[VOTE]: Release Apache RocketMQ 5.3.0",
+        "sender": "author-02",
+        "body_sha256": "eb991832a6f1b92378d7dffc1fe35bff3730dc65091194d6c688ee59a5622bbc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@rocketmq.apache.org/msg48328.html",
+        "date": "2024-07-14",
+        "subject": "Re:Re:[VOTE]: Release Apache RocketMQ 5.3.0",
+        "sender": "author-03",
+        "body_sha256": "4ca3ae4a53d34a008c7bde9bf86d7982c7a5521bbfafa448e4812083817f65fb"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@rocketmq.apache.org/msg48334.html",
+        "date": "2024-07-16",
+        "subject": "Re: Re:[VOTE]: Release Apache RocketMQ 5.3.0",
+        "sender": "author-04",
+        "body_sha256": "464f38b4f87256d2a62e1319b958d22d779a4eb29b42d588f943d06aacd780ce"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@rocketmq.apache.org/msg48336.html",
+        "date": "2024-07-16",
+        "subject": "[RESULT][VOTE]Release Apache RocketMQ 5.3.0",
+        "sender": "author-01",
+        "body_sha256": "f0fa7f1ee29d1dbfd0ae58706b192f6180fa369517b761eedbe5f1a163f97581"
+      }
+    ],
+    "tags": {
+      "rocketmq-all-5.3.0": {
+        "commit": "7ee50ec32e10265c45e00df5971dd78b9598ff6e",
+        "url": "https://github.com/apache/rocketmq/tree/rocketmq-all-5.3.0",
+        "ref_object": "7ee50ec32e10265c45e00df5971dd78b9598ff6e"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/rocketmq.git",
+      "observed_utc": "2026-11-25T03:40:57.084438+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40rocketmq.apache.org&q=subject%3A%285.3.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "helix": {
+    "subset": "panel2",
+    "project": "helix",
+    "repository": "apache/helix",
+    "version": "1.4.3",
+    "final_tag": "helix-1.4.3",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05369.html",
+        "date": "2025-01-28",
+        "subject": "[VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-01",
+        "body_sha256": "d8923956c29b6a115ff278015653856bbc620810d698bc932eac9b6ad584ce4c"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05370.html",
+        "date": "2025-01-29",
+        "subject": "Re: [VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-02",
+        "body_sha256": "0ac46a407fea6fb1b54786881680163c513b183b5bce426c02d5f68ab541f287"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05371.html",
+        "date": "2025-01-29",
+        "subject": "Re: [VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-03",
+        "body_sha256": "0d4161958ce421017e18833052f0238e8258a17dbd7a55d7da7f0e3f57c5a820"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05372.html",
+        "date": "2025-01-29",
+        "subject": "Re: [VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-01",
+        "body_sha256": "9088ceccbd5263e882014507ee639a705d9b96dfb5a562fae54ee3a69d90a8a5"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05373.html",
+        "date": "2025-01-31",
+        "subject": "Re: [VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-04",
+        "body_sha256": "3e70a8aeebda5924675be3f6fc601a13a90bf4f659ec60ff8f7dc124f780cbc1"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05374.html",
+        "date": "2025-01-31",
+        "subject": "Re: [VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-05",
+        "body_sha256": "25c02fee5a95b961601e42bf6cdd14cb384f2ef8dc93f74be15c3b2c01b1a0b9"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05375.html",
+        "date": "2025-01-31",
+        "subject": "Re: [VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-06",
+        "body_sha256": "ebaf62047a0e1e2eb8bbd04b71f04e277a37e5501e0e8067a5b122edba23faa6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@helix.apache.org/msg05376.html",
+        "date": "2025-02-03",
+        "subject": "[RESULT][VOTE] Apache Helix 1.4.3 Release",
+        "sender": "author-01",
+        "body_sha256": "9a27e4f0efb9eecc45402854e7461867b3201d0b4a4a7414497d85eb02b3f5b4"
+      }
+    ],
+    "tags": {
+      "helix-1.4.3": {
+        "commit": "707aca836451e23eaddfb88a3bc850abcb31dc0a",
+        "url": "https://github.com/apache/helix/tree/helix-1.4.3",
+        "ref_object": "283d685fc0d954d24e30d86c5cb5672921b5fc20"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/helix.git",
+      "observed_utc": "2026-11-25T03:40:56.965271+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40helix.apache.org&q=subject%3A%281.4.3%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "flume": {
+    "subset": "panel2",
+    "project": "flume",
+    "repository": "apache/flume",
+    "version": "1.11.0",
+    "final_tag": "release-1.11.0",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21518.html",
+        "date": "2022-10-10",
+        "subject": "[VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "0ee7c9f29cfc6f548c1046f068a5c402f67428930b3f1f0be39180b1af655398"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21519.html",
+        "date": "2022-10-11",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "845a7da9c8ac2b2b347e0cf217b024c9e63eeab075369f251e328963d8f88541"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21520.html",
+        "date": "2022-10-11",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "6b4a280b065f2ad3c23af058875594b97dd1d098a42abef52e37c9c8a1e270e3"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21521.html",
+        "date": "2022-10-13",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-02",
+        "body_sha256": "b041acdc7768da7b18c77e344466afb1e24d80aaaff248744e7b3e6e79aee077"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21522.html",
+        "date": "2022-10-13",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "aef360e0c9867b98ed4e3b78a799caeec58cd79c0be294a7203b0296cc51f965"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21525.html",
+        "date": "2022-10-13",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-03",
+        "body_sha256": "464b8665232f8fdcd58dc30738711d69d1b149383e13a6773dbb62f7a16c6b99"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21528.html",
+        "date": "2022-10-16",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-04",
+        "body_sha256": "999697a57b1cd1691e7ad376962b681b9b8f8a8340ff4eec2ab2c15e08b2697d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21529.html",
+        "date": "2022-10-16",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-05",
+        "body_sha256": "f9333a9d8e6d4a7d4d3404063281adb0bf291842b723c690b67b9a9544a47fea"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21530.html",
+        "date": "2022-10-16",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "b66af7bcc96fffbf3db962651a995dcde67e227a525125dd6fc97c6d00567817"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21531.html",
+        "date": "2022-10-16",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "b6073dfefa2ecd22689dcda885cf868dc918086c6217ccdaf608363fda3a6664"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21533.html",
+        "date": "2022-10-16",
+        "subject": "[VOTE][CANCELLED] Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "645708bd2e4fce0f5c2ea3d80d0036d7cfe64949445330eedf6b579324e5589e"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21534.html",
+        "date": "2022-10-16",
+        "subject": "Re: [VOTE][CANCELLED] Apache Flume 1.11.0-RC1",
+        "sender": "author-04",
+        "body_sha256": "7d9e9489928b4131a3fd95ae70ce4a865d17653b0e3f297ec7a062cfd5192123"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21535.html",
+        "date": "2022-10-16",
+        "subject": "Re: [VOTE][CANCELLED] Apache Flume 1.11.0-RC1",
+        "sender": "author-04",
+        "body_sha256": "3954fa03e7e863502fd4cd2c4fbeffd9c1117d259acd1b15f1f0b8c483b69c50"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21536.html",
+        "date": "2022-10-16",
+        "subject": "Re: [VOTE][CANCELLED] Apache Flume 1.11.0-RC1",
+        "sender": "author-01",
+        "body_sha256": "40e2bead351da54d145416526b5f64a99dc58578d1395c257b2e224bab7bcddb"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21537.html",
+        "date": "2022-10-16",
+        "subject": "[VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "0cc7c8bf52c99a062d03e4d85c194c77265f347ab4cc446feb881dfc43ee58c6"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21538.html",
+        "date": "2022-10-18",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-06",
+        "body_sha256": "e5327f6e1c15f02b4a2ef20fb0cbbbebbb559a0182acd67498ba815ceafc526d"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21545.html",
+        "date": "2022-10-21",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "a8e68e0c78bdc59687051eda057926bd7333518786eaf630a9d0fa81b89e470f"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21547.html",
+        "date": "2022-10-23",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "10d54834c4ed91e751b64d5de150bd7cd12fb5ccf7dc9d04d81f0add100d7ccc"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21548.html",
+        "date": "2022-10-24",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-04",
+        "body_sha256": "6f49e64034109bbac4832bc04335740a90161255d0d7084c20f8c4e3d02a6811"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21549.html",
+        "date": "2022-10-24",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-04",
+        "body_sha256": "2e672bc0db4da68763a885e0598ddfdf60a43ccd400068d3eacd1ea4522bf5d2"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21550.html",
+        "date": "2022-10-24",
+        "subject": "Re: [VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "fe556b390282f2af04325020ecbbf19d1ffd67e7b388607999412d8a8cf3feff"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@flume.apache.org/msg21551.html",
+        "date": "2022-10-24",
+        "subject": "[RESULT][VOTE] Release Apache Flume 1.11.0-RC2",
+        "sender": "author-01",
+        "body_sha256": "1e3f00f3ee0e9d7d0c5a52882e25e6c08d1b69de4d298f034d74249d1ceafe57"
+      }
+    ],
+    "tags": {
+      "release-1.11.0-rc1": {
+        "commit": "eac699d74997d5f7fc1235e3dc12e675d7382a57",
+        "url": "https://github.com/apache/flume/tree/release-1.11.0-rc1",
+        "ref_object": "bd263e97a9ded3863bf58423c15cc790f6d6e3b0"
+      },
+      "release-1.11.0-rc2": {
+        "commit": "1a15927e594fd0d05a59d804b90a9c31ec93f5e1",
+        "url": "https://github.com/apache/flume/tree/release-1.11.0-rc2",
+        "ref_object": "b4913a07a8eed94c27d0ffbffce0c4b924035d3a"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/flume.git",
+      "observed_utc": "2026-11-25T03:41:04.063322+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40flume.apache.org&q=subject%3A%281.11.0%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  },
+  "cassandra": {
+    "subset": "panel2",
+    "project": "cassandra",
+    "repository": "apache/cassandra",
+    "version": "4.1.4",
+    "final_tag": "cassandra-4.1.4",
+    "messages": [
+      {
+        "url": "https://www.mail-archive.com/dev@cassandra.apache.org/msg22769.html",
+        "date": "2024-01-26",
+        "subject": "[VOTE] Release Apache Cassandra 4.1.4",
+        "sender": "author-01",
+        "body_sha256": "647a0219c1664696b25193064a25b047689f4660d048fed48aca6262df1abbc1"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@cassandra.apache.org/msg22781.html",
+        "date": "2024-02-06",
+        "subject": "Re: [VOTE] Release Apache Cassandra 4.1.4",
+        "sender": "author-02",
+        "body_sha256": "ff8f3f09604fae055b7b50416d1224cd163a90d5e204e7717ea892f7ac6c6d71"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@cassandra.apache.org/msg22793.html",
+        "date": "2024-02-08",
+        "subject": "Re: [VOTE] Release Apache Cassandra 4.1.4",
+        "sender": "author-03",
+        "body_sha256": "753f2ef62690969c10a861309094a29e7940d187fab8ed15c0720c7817c59814"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@cassandra.apache.org/msg22804.html",
+        "date": "2024-02-13",
+        "subject": "Re: [VOTE] Release Apache Cassandra 4.1.4",
+        "sender": "author-01",
+        "body_sha256": "cea8cea8ff0b4ebc32104a27cd29db4c44133167d6cc5f4cf4c3157fc2662639"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@cassandra.apache.org/msg22813.html",
+        "date": "2024-02-14",
+        "subject": "Re: [VOTE] Release Apache Cassandra 4.1.4",
+        "sender": "author-04",
+        "body_sha256": "2181f4272bbae853a5168f241bbf5a083389f82f2e9bdc69d0bad6e349790186"
+      },
+      {
+        "url": "https://www.mail-archive.com/dev@cassandra.apache.org/msg22815.html",
+        "date": "2024-02-14",
+        "subject": "[RESULT][VOTE] Release Apache Cassandra 4.1.4",
+        "sender": "author-01",
+        "body_sha256": "af48a99cebcca0edf6b43f73639e71e478b0e7381ea891e2ac647059d693fecd"
+      }
+    ],
+    "tags": {
+      "cassandra-4.1.4": {
+        "commit": "99d9faeef57c9cf5240d11eac9db5b283e45a4f9",
+        "url": "https://github.com/apache/cassandra/tree/cassandra-4.1.4",
+        "ref_object": "e7c2a5c1cb2d2807e5bbdb688ed0c61df9b10440"
+      }
+    },
+    "tag_observation": {
+      "queried": "https://github.com/apache/cassandra.git",
+      "observed_utc": "2026-11-25T03:41:01.381012+00:00"
+    },
+    "search_url": "https://www.mail-archive.com/search?l=dev%40cassandra.apache.org&q=subject%3A%284.1.4%29+subject%3A%28VOTE%29&o=oldest&f=1&n=200"
+  }
+}

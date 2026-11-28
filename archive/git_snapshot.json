@@ -1,0 +1,213 @@
+{
+  "captured_utc": "2026-11-25T01:42:34.346444+00:00",
+  "refs": {
+    "apache/cloudberry": {
+      "2.0.0-incubating-rc3": {
+        "peeled": "8178d4faefeca459f7ef2dd3aa502f23e0d7a5c4",
+        "ref_object": "902340f3a0d60e8f6d6ccb7a252c7d4d593c61f8",
+        "status": "resolved",
+        "target": "8178d4faefeca459f7ef2dd3aa502f23e0d7a5c4"
+      }
+    },
+    "apache/fluss-shaded": {
+      "v1.0-incubating-rc1": {
+        "peeled": "8a5530602e787b178cfdf26131eec9fb84cf7315",
+        "ref_object": "ee43e89bc080c0b513fcd4d1f917422584837e8e",
+        "status": "resolved",
+        "target": "8a5530602e787b178cfdf26131eec9fb84cf7315"
+      }
+    },
+    "apache/fory": {
+      "v0.11.0-rc1": {
+        "peeled": null,
+        "ref_object": "cc91f02d95945c3534920eb075dcff60ce0b435c",
+        "status": "resolved",
+        "target": "cc91f02d95945c3534920eb075dcff60ce0b435c"
+      },
+      "v0.11.1-rc1": {
+        "peeled": null,
+        "ref_object": "8b1f7f3f9ddcbd99f7297b90eed74f6f0e9f6218",
+        "status": "resolved",
+        "target": "8b1f7f3f9ddcbd99f7297b90eed74f6f0e9f6218"
+      },
+      "v0.11.2-rc1": {
+        "peeled": null,
+        "ref_object": "880282d3d52b7cda046a7ee9f6cfa2be2fbf52ba",
+        "status": "resolved",
+        "target": "880282d3d52b7cda046a7ee9f6cfa2be2fbf52ba"
+      }
+    },
+    "apache/fury": {
+      "v0.10.0-rc1": {
+        "peeled": null,
+        "ref_object": "202bb8e67b9685b4ad6408a9ad5c9fc2f4205999",
+        "status": "resolved",
+        "target": "202bb8e67b9685b4ad6408a9ad5c9fc2f4205999"
+      },
+      "v0.10.1-rc3": {
+        "peeled": null,
+        "ref_object": "b92f928af94b4a211b4127f431cb4ec757ef8748",
+        "status": "resolved",
+        "target": "b92f928af94b4a211b4127f431cb4ec757ef8748"
+      },
+      "v0.10.2-rc2": {
+        "peeled": null,
+        "ref_object": "fb24fcc81b05c2b9c13811135fd41920c3b23abe",
+        "status": "resolved",
+        "target": "fb24fcc81b05c2b9c13811135fd41920c3b23abe"
+      },
+      "v0.10.3-rc2": {
+        "peeled": null,
+        "ref_object": "a48e9032dfbcc6020883d9eba072647626ff4975",
+        "status": "resolved",
+        "target": "a48e9032dfbcc6020883d9eba072647626ff4975"
+      }
+    },
+    "apache/geaflow": {
+      "v0.7.0-rc3": {
+        "peeled": "40cbddea646ace22c8e8a94125f662a5d4c7be74",
+        "ref_object": "02603ab5e15fcc312591a2553f6e4879e373ac53",
+        "status": "resolved",
+        "target": "40cbddea646ace22c8e8a94125f662a5d4c7be74"
+      }
+    },
+    "apache/hamilton": {
+      "v1.89.0-incubating-RC1": {
+        "peeled": null,
+        "ref_object": "5b8dd2b238deb17f88aaefec1b2c05e89021b348",
+        "status": "resolved",
+        "target": "5b8dd2b238deb17f88aaefec1b2c05e89021b348"
+      }
+    },
+    "apache/iggy": {
+      "server-0.6.0-rc.2": {
+        "peeled": null,
+        "ref_object": "90e4eab8c42f48303cb34f3fea29dce6f8d4158c",
+        "status": "resolved",
+        "target": "90e4eab8c42f48303cb34f3fea29dce6f8d4158c"
+      }
+    },
+    "apache/incubator-baremaps": {
+      "v0.8.2-rc3": {
+        "peeled": null,
+        "ref_object": "03512049ff65bc15a24f39450810c2ac578a217f",
+        "status": "resolved",
+        "target": "03512049ff65bc15a24f39450810c2ac578a217f"
+      }
+    },
+    "apache/incubator-gluten": {
+      "v1.3.0-rc0": {
+        "peeled": null,
+        "ref_object": "646329de0411c32547947777fd4bd7875657f946",
+        "status": "resolved",
+        "target": "646329de0411c32547947777fd4bd7875657f946"
+      },
+      "v1.4.0-rc2": {
+        "peeled": null,
+        "ref_object": "50dd117dadb9fe3e9bba5c5002168e1294b2e2bb",
+        "status": "resolved",
+        "target": "50dd117dadb9fe3e9bba5c5002168e1294b2e2bb"
+      },
+      "v1.5.0-rc1": {
+        "peeled": "a269698d622b81e7829f0ad43e1a03740c97f739",
+        "ref_object": "e4f6c7c86894dcca0c538c786368f87d07d77bc8",
+        "status": "resolved",
+        "target": "a269698d622b81e7829f0ad43e1a03740c97f739"
+      }
+    },
+    "apache/incubator-seata": {
+      "v2.3.0": {
+        "peeled": "0ad2847465fa877a2c65ea84ed43f5b0984c3ce9",
+        "ref_object": "d5673923bb7111f5a7b2c343bebc73a175a05228",
+        "status": "resolved",
+        "target": "0ad2847465fa877a2c65ea84ed43f5b0984c3ce9"
+      },
+      "v2.4.0": {
+        "peeled": null,
+        "ref_object": "b638ed60a19a32f5b4b0399046c2f56439026203",
+        "status": "resolved",
+        "target": "b638ed60a19a32f5b4b0399046c2f56439026203"
+      },
+      "v2.5.0": {
+        "peeled": "989db47c77fcfdc60879821962be619ecbe6b70a",
+        "ref_object": "e8a402b6d77196581713d2df49524073b3ef0cfe",
+        "status": "resolved",
+        "target": "989db47c77fcfdc60879821962be619ecbe6b70a"
+      }
+    },
+    "apache/incubator-seata-go": {
+      "v2.0.0-rc01": {
+        "peeled": "c91a8f53a92777e178e4f7901d7e0e507b3b8dfe",
+        "ref_object": "046b0fbdb1b32eed8e56d7df72033601d00b3d68",
+        "status": "resolved",
+        "target": "c91a8f53a92777e178e4f7901d7e0e507b3b8dfe"
+      }
+    },
+    "apache/incubator-stormcrawler": {
+      "stormcrawler-3.3.0": {
+        "peeled": "e37e8cbe8388cc041e6fe4349223a0631be7cd4a",
+        "ref_object": "6e0d6ba6f8981144ae7377951ace90af316a3609",
+        "status": "resolved",
+        "target": "e37e8cbe8388cc041e6fe4349223a0631be7cd4a"
+      }
+    },
+    "apache/incubator-xtable": {
+      "0.3.0-incubating-rc3": {
+        "peeled": null,
+        "ref_object": null,
+        "status": "absent",
+        "target": null
+      }
+    },
+    "apache/polaris": {
+      "apache-polaris-0.10.0-beta-incubating-rc2": {
+        "peeled": null,
+        "ref_object": "05d0f8ed15d5d25672eef9297ade9b8e1f1374a2",
+        "status": "resolved",
+        "target": "05d0f8ed15d5d25672eef9297ade9b8e1f1374a2"
+      },
+      "apache-polaris-0.10.0-beta-incubating-rc4": {
+        "peeled": null,
+        "ref_object": "52e30f0378d6092880918b15a34a6c6b4d51c1f8",
+        "status": "resolved",
+        "target": "52e30f0378d6092880918b15a34a6c6b4d51c1f8"
+      },
+      "apache-polaris-0.9.0-incubating-rc5": {
+        "peeled": "829dff6ec4728bf70e8a772c42bccb519679574e",
+        "ref_object": "46cab5a8df0bdc4429ac63510088b4c5ad02b2d9",
+        "status": "resolved",
+        "target": "829dff6ec4728bf70e8a772c42bccb519679574e"
+      },
+      "apache-polaris-0.9.0-incubating-rc6": {
+        "peeled": "4b18ec065ff16f74b11bc85fdc6ea9036eca7274",
+        "ref_object": "4321e6e02a0ba5700b8f8e4d638dc4da1cbc32f1",
+        "status": "resolved",
+        "target": "4b18ec065ff16f74b11bc85fdc6ea9036eca7274"
+      },
+      "apache-polaris-1.0.0-incubating-rc6": {
+        "peeled": null,
+        "ref_object": "a701f105c5d44565ac0ea86db45edbcebdbed718",
+        "status": "resolved",
+        "target": "a701f105c5d44565ac0ea86db45edbcebdbed718"
+      },
+      "apache-polaris-1.0.1-incubating-rc0": {
+        "peeled": null,
+        "ref_object": "d7e28e44d062d9ed38ca851a189886f1dc3605c9",
+        "status": "resolved",
+        "target": "d7e28e44d062d9ed38ca851a189886f1dc3605c9"
+      },
+      "apache-polaris-1.1.0-incubating-rc0": {
+        "peeled": null,
+        "ref_object": "9c635e14fb7497cd4d40b79075048af49350d622",
+        "status": "resolved",
+        "target": "9c635e14fb7497cd4d40b79075048af49350d622"
+      },
+      "apache-polaris-1.2.0-incubating-rc2": {
+        "peeled": null,
+        "ref_object": "354a5ef6b337bf690b7a12fefe2c984e2139b029",
+        "status": "resolved",
+        "target": "354a5ef6b337bf690b7a12fefe2c984e2139b029"
+      }
+    }
+  }
+}

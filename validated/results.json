@@ -1,0 +1,823 @@
+{
+  "summary": {
+    "complete": {
+      "n": 21,
+      "action_agreement": 21,
+      "expected_action_counts": {
+        "Review": 14,
+        "Reuse": 7
+      },
+      "both_correct": 21,
+      "both_definite": 21
+    },
+    "single_fault": {
+      "n": 42,
+      "action_agreement": 42,
+      "expected_action_counts": {
+        "Defer": 42
+      },
+      "both_correct": 42,
+      "both_definite": 0
+    },
+    "documented_negative": {
+      "n": 2,
+      "action_agreement": 2,
+      "expected_action_counts": {
+        "DoNotReuse": 2
+      },
+      "both_correct": 2,
+      "both_definite": 2
+    },
+    "negative_control": {
+      "n": 6,
+      "action_agreement": 6,
+      "expected_action_counts": {
+        "Defer": 4,
+        "DoNotReuse": 2
+      },
+      "both_correct": 6,
+      "both_definite": 2
+    }
+  },
+  "rows": [
+    {
+      "group": "complete",
+      "motion": "arrow-rs",
+      "case": [
+        "59.0.0",
+        "60.0.0-rc1"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_older",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "arrow-rs",
+      "case": [
+        "60.0.0-rc1",
+        "60.0.0"
+      ],
+      "expected": "Reuse",
+      "receipt": "Reuse",
+      "sqlite_validation": "Reuse",
+      "receipt_reason": "both_commits_match",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "single_fault",
+      "motion": "arrow-rs",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "arrow-rs",
+      "case": "foreign_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "arrow-rs",
+      "case": "edited_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "arrow-rs",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "arrow-rs",
+      "case": "missing_older_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "older_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "arrow-rs",
+      "case": "changed_newer_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "newer_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "complete",
+      "motion": "arrow-rs",
+      "case": [
+        "60.0.0",
+        "refs/heads/main"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_newer",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "parquet-java",
+      "case": [
+        "apache-parquet-1.17.0",
+        "apache-parquet-1.17.1-rc0"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_older",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "parquet-java",
+      "case": [
+        "apache-parquet-1.17.1-rc0",
+        "apache-parquet-1.17.1"
+      ],
+      "expected": "Reuse",
+      "receipt": "Reuse",
+      "sqlite_validation": "Reuse",
+      "receipt_reason": "both_commits_match",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "single_fault",
+      "motion": "parquet-java",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "parquet-java",
+      "case": "foreign_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "parquet-java",
+      "case": "edited_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "parquet-java",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "parquet-java",
+      "case": "missing_older_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "older_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "parquet-java",
+      "case": "changed_newer_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "newer_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "complete",
+      "motion": "parquet-java",
+      "case": [
+        "apache-parquet-1.17.1",
+        "refs/heads/master"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_newer",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "iceberg",
+      "case": [
+        "apache-iceberg-1.12.0-rc1",
+        "apache-iceberg-1.12.0-rc2"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_older",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "iceberg",
+      "case": [
+        "apache-iceberg-1.12.0-rc2",
+        "apache-iceberg-1.12.0"
+      ],
+      "expected": "Reuse",
+      "receipt": "Reuse",
+      "sqlite_validation": "Reuse",
+      "receipt_reason": "both_commits_match",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "single_fault",
+      "motion": "iceberg",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "iceberg",
+      "case": "foreign_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "iceberg",
+      "case": "edited_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "iceberg",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "iceberg",
+      "case": "missing_older_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "older_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "iceberg",
+      "case": "changed_newer_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "newer_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "complete",
+      "motion": "iceberg",
+      "case": [
+        "apache-iceberg-1.12.0",
+        "refs/heads/main"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_newer",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion",
+      "case": [
+        "55.0.0",
+        "55.1.0-rc1"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_older",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion",
+      "case": [
+        "55.1.0-rc1",
+        "55.1.0"
+      ],
+      "expected": "Reuse",
+      "receipt": "Reuse",
+      "sqlite_validation": "Reuse",
+      "receipt_reason": "both_commits_match",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion",
+      "case": "foreign_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion",
+      "case": "edited_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion",
+      "case": "missing_older_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "older_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion",
+      "case": "changed_newer_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "newer_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion",
+      "case": [
+        "55.1.0",
+        "refs/heads/main"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_newer",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion-comet",
+      "case": [
+        "1.1.0",
+        "1.2.0-rc1"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_older",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion-comet",
+      "case": [
+        "1.2.0-rc1",
+        "1.2.0"
+      ],
+      "expected": "Reuse",
+      "receipt": "Reuse",
+      "sqlite_validation": "Reuse",
+      "receipt_reason": "both_commits_match",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-comet",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-comet",
+      "case": "foreign_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-comet",
+      "case": "edited_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-comet",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-comet",
+      "case": "missing_older_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "older_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-comet",
+      "case": "changed_newer_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "newer_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion-comet",
+      "case": [
+        "1.2.0",
+        "refs/heads/main"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_newer",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion-sqlparser-rs",
+      "case": [
+        "v0.63.0",
+        "v0.64.0-rc1"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_older",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion-sqlparser-rs",
+      "case": [
+        "v0.64.0-rc1",
+        "v0.64.0"
+      ],
+      "expected": "Reuse",
+      "receipt": "Reuse",
+      "sqlite_validation": "Reuse",
+      "receipt_reason": "both_commits_match",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-sqlparser-rs",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-sqlparser-rs",
+      "case": "foreign_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-sqlparser-rs",
+      "case": "edited_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-sqlparser-rs",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-sqlparser-rs",
+      "case": "missing_older_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "older_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "datafusion-sqlparser-rs",
+      "case": "changed_newer_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "newer_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "complete",
+      "motion": "datafusion-sqlparser-rs",
+      "case": [
+        "v0.64.0",
+        "refs/heads/main"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_newer",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "kafka",
+      "case": [
+        "3.8.0",
+        "3.9.0-rc5"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_older",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "complete",
+      "motion": "kafka",
+      "case": [
+        "3.9.0-rc5",
+        "3.9.0"
+      ],
+      "expected": "Reuse",
+      "receipt": "Reuse",
+      "sqlite_validation": "Reuse",
+      "receipt_reason": "both_commits_match",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "single_fault",
+      "motion": "kafka",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "kafka",
+      "case": "foreign_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "kafka",
+      "case": "edited_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "kafka",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "kafka",
+      "case": "missing_older_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "older_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "single_fault",
+      "motion": "kafka",
+      "case": "changed_newer_observation",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "newer_observation_unverified",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "complete",
+      "motion": "kafka",
+      "case": [
+        "3.9.0",
+        "3.9.1"
+      ],
+      "expected": "Review",
+      "receipt": "Review",
+      "sqlite_validation": "Review",
+      "receipt_reason": "outside_scope_newer",
+      "next_owner": "release owner"
+    },
+    {
+      "group": "documented_negative",
+      "motion": "polaris-ipmc-rc5",
+      "case": [
+        "apache-polaris-0.9.0-incubating-rc5",
+        "apache-polaris-0.9.0-incubating-rc6"
+      ],
+      "expected": "DoNotReuse",
+      "receipt": "DoNotReuse",
+      "sqlite_validation": "DoNotReuse",
+      "receipt_reason": "motion_withdrawn",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "negative_control",
+      "motion": "polaris-ipmc-rc5",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "negative_control",
+      "motion": "polaris-ipmc-rc5",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "negative_control",
+      "motion": "polaris-ipmc-rc5",
+      "case": "no_git_observations",
+      "expected": "DoNotReuse",
+      "receipt": "DoNotReuse",
+      "sqlite_validation": "DoNotReuse",
+      "receipt_reason": "motion_withdrawn",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "documented_negative",
+      "motion": "otava-ipmc-rc3",
+      "case": [
+        "0.6.0+incubating-RC3",
+        "0.6.0-incubating-rc5"
+      ],
+      "expected": "DoNotReuse",
+      "receipt": "DoNotReuse",
+      "sqlite_validation": "DoNotReuse",
+      "receipt_reason": "motion_failed",
+      "next_owner": "receiving maintainer"
+    },
+    {
+      "group": "negative_control",
+      "motion": "otava-ipmc-rc3",
+      "case": "missing_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_packet_mismatch",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "negative_control",
+      "motion": "otava-ipmc-rc3",
+      "case": "conflicting_registered_result",
+      "expected": "Defer",
+      "receipt": "Defer",
+      "sqlite_validation": "Defer",
+      "receipt_reason": "result_registry_cardinality",
+      "next_owner": "evidence custodian"
+    },
+    {
+      "group": "negative_control",
+      "motion": "otava-ipmc-rc3",
+      "case": "no_git_observations",
+      "expected": "DoNotReuse",
+      "receipt": "DoNotReuse",
+      "sqlite_validation": "DoNotReuse",
+      "receipt_reason": "motion_failed",
+      "next_owner": "receiving maintainer"
+    }
+  ]
+}

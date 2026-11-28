@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+/local-captures/
+/archive/manifest.json
+/archive/subjects.jsonl.gz
+/archive/vote_messages.jsonl.gz
+/archive/results.jsonl
+/archive/summary.json
+/archive/git_audit.json
+/thread_first/predictions.json
+/thread_first/summary.json
